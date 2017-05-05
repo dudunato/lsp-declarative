@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"><labels>
+        <fullName>BPAdd</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPAdd</shortDescription>
+        <value>Add</value>
+    </labels><labels>
+        <fullName>BPAgreements</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPAgreements</shortDescription>
+        <value>Agreements</value>
+    </labels><labels>
+        <fullName>BPApplication</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPApplication</shortDescription>
+        <value>Application</value>
+    </labels><labels>
+        <fullName>BPApplicationSubmitted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPApplicationSubmitted</shortDescription>
+        <value>Application Submitted</value>
+    </labels><labels>
+        <fullName>BPApplicationSubmittedMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPApplicationSubmittedMSG</shortDescription>
+        <value>Good job! Your application was submitted and was sent to an approval process! ;)</value>
+    </labels><labels>
+        <fullName>BPApply</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPApply</shortDescription>
+        <value>Apply</value>
+    </labels><labels>
+        <fullName>BPAreYouSureToDeleteXP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPAreYouSureToDeleteXP</shortDescription>
+        <value>Are you sure you want delete this Experience?</value>
+    </labels><labels>
+        <fullName>BPArrival</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPArrival</shortDescription>
+        <value>Arrival</value>
+    </labels><labels>
+        <fullName>BPArrivalInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPArrivalInformation</shortDescription>
+        <value>Arrival Information</value>
+    </labels><labels>
+        <fullName>BPBack</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPBack</shortDescription>
+        <value>Back</value>
+    </labels><labels>
+        <fullName>BPBillingDetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPBillingDetails</shortDescription>
+        <value>Billing Details</value>
+    </labels><labels>
+        <fullName>BPCVC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCVC</shortDescription>
+        <value>CVC (Security code on back of card)</value>
+    </labels><labels>
+        <fullName>BPCVCFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCVCFieldRequired</shortDescription>
+        <value>CVC is mandatory!</value>
+    </labels><labels>
+        <fullName>BPCardNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCardNumber</shortDescription>
+        <value>Card Number</value>
+    </labels><labels>
+        <fullName>BPCardNumberInvalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCardNumberInvalid</shortDescription>
+        <value>Card Number invalid!</value>
+    </labels><labels>
+        <fullName>BPCommunityLivingStandardsInThePDFLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Community Living Standards in the PDF Link</shortDescription>
+        <value>Community Living Standards in the PDF</value>
+    </labels><labels>
+        <fullName>BPCommunityLivingStandardsText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Community Living Standards Text</shortDescription>
+        <value>I confirm that I have read and understand the {0}. During the time I'm attending a school at YWAM Lausanne, I will keep the highest moral standards and maintain a clear personal witness through proper conduct. I will not drink alcoholic beverages, use any type of tobacco product or illegal drugs and I will not start an exclusive relationship including romantic relationships. I understand that if I do not abide by these conditions, I may be asked to leave.</value>
+    </labels><labels>
+        <fullName>BPCommunityLivingStandardsTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Community Living Standards Title</shortDescription>
+        <value>Community Living Standards</value>
+    </labels><labels>
+        <fullName>BPConfirmApplyMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPConfirmApplyMSG</shortDescription>
+        <value>Are you sure you want to apply for it?</value>
+    </labels><labels>
+        <fullName>BPConfirmPassword</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPConfirmPassword</shortDescription>
+        <value>Confirm Password</value>
+    </labels><labels>
+        <fullName>BPConsentForTreatmentText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Consent for Treatment Text</shortDescription>
+        <value>In the event of an emergency in which I am rendered unconscious and my nearest responsible relative or guardian cannot be contacted, I hereby agree to such treatment, anesthetics and operations to be performed upon myself as in the opinion of attending physician(s) deemed necessary.</value>
+    </labels><labels>
+        <fullName>BPConsentForTreatmentTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Consent for Treatment Title</shortDescription>
+        <value>Consent for Treatment</value>
+    </labels><labels>
+        <fullName>BPContactInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPContactInfo</shortDescription>
+        <value>Contact Info</value>
+    </labels><labels>
+        <fullName>BPCourses</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCourses</shortDescription>
+        <value>Courses</value>
+    </labels><labels>
+        <fullName>BPCreatePassword</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPCreatePassword</shortDescription>
+        <value>Create Password</value>
+    </labels><labels>
+        <fullName>BPDelete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPDelete</shortDescription>
+        <value>Delete</value>
+    </labels><labels>
+        <fullName>BPDeletedExperienceSuccessfullyMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPDeletedExperienceSuccessfullyMSG</shortDescription>
+        <value>Your experience was deleted successfully!</value>
+    </labels><labels>
+        <fullName>BPDeletedSuccessfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPDeletedSuccessfully</shortDescription>
+        <value>Deleted successfully!</value>
+    </labels><labels>
+        <fullName>BPDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPDescription</shortDescription>
+        <value>Description</value>
+    </labels><labels>
+        <fullName>BPDonation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPDonation</shortDescription>
+        <value>Donation</value>
+    </labels><labels>
+        <fullName>BPEdit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEdit</shortDescription>
+        <value>Edit</value>
+    </labels><labels>
+        <fullName>BPEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmail</shortDescription>
+        <value>Email</value>
+    </labels><labels>
+        <fullName>BPEmailFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailFieldRequired</shortDescription>
+        <value>Email is a required field and it needs to be a valid email!</value>
+    </labels><labels>
+        <fullName>BPEmergencyContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmergencyContact</shortDescription>
+        <value>Emergency Contact</value>
+    </labels><labels>
+        <fullName>BPEmergencyContactSavedSuccessfullyMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmergencyContactSavedSuccessfullyMSG</shortDescription>
+        <value>Emergency contact was saved successfully!</value>
+    </labels><labels>
+        <fullName>BPEndDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEndDate</shortDescription>
+        <value>End Date</value>
+    </labels><labels>
+        <fullName>BPExperience</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPExperience</shortDescription>
+        <value>Experience</value>
+    </labels><labels>
+        <fullName>BPExperiences</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPExperiences</shortDescription>
+        <value>Experiences</value>
+    </labels><labels>
+        <fullName>BPExpirationDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPExpirationDate</shortDescription>
+        <value>Expiration Date</value>
+    </labels><labels>
+        <fullName>BPExpirationDateFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPExpirationDateFieldRequired</shortDescription>
+        <value>Expiration Date is mandatory!</value>
+    </labels><labels>
+        <fullName>BPFinancialResponsibilityText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Financial Responsibility Text</shortDescription>
+        <value>I confirm that I have read and understand the {0}. I am fully aware of my financial obligations, both to the Lord and to YWAM Lausanne. I also confirm that my acceptance into the school requires that my lecture phase fees must be paid on or before my arrival. I therefore accept full responsibility for all fees and personal expenses incurred during my involvement with YWAM Lausanne.</value>
+    </labels><labels>
+        <fullName>BPFinancialResponsibilityTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Financial Responsibility Title</shortDescription>
+        <value>Financial Responsibility</value>
+    </labels><labels>
+        <fullName>BPFirstName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPFirstName</shortDescription>
+        <value>First Name</value>
+    </labels><labels>
+        <fullName>BPFirstNameFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPFirstNameFieldRequired</shortDescription>
+        <value>First Name is a required field!</value>
+    </labels><labels>
+        <fullName>BPFrom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPFrom</shortDescription>
+        <value>From</value>
+    </labels><labels>
+        <fullName>BPGoodStart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPGoodStart</shortDescription>
+        <value>Good Start</value>
+    </labels><labels>
+        <fullName>BPHealth</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPHealth</shortDescription>
+        <value>Health</value>
+    </labels><labels>
+        <fullName>BPHomePhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPHomePhone</shortDescription>
+        <value>Home Phone</value>
+    </labels><labels>
+        <fullName>BPHomePhoneFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPHomePhoneFieldRequired</shortDescription>
+        <value>Ermegency contact's Home Phone is a required field!</value>
+    </labels><labels>
+        <fullName>BPImageFileNotSupported</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPImageFileNotSupported</shortDescription>
+        <value>Ops! Image file not supported, have you tried a .png or .jpg?</value>
+    </labels><labels>
+        <fullName>BPImageTooBig</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPImageTooBig</shortDescription>
+        <value>Ops! Your photo is too big. Please try to upload a photo up to 500kb!</value>
+    </labels><labels>
+        <fullName>BPInfoMissing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPInfoMissing</shortDescription>
+        <value>Missing information, check it out:</value>
+    </labels><labels>
+        <fullName>BPInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPInformation</shortDescription>
+        <value>Information</value>
+    </labels><labels>
+        <fullName>BPKeepGoing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPKeepGoing</shortDescription>
+        <value>Keep going</value>
+    </labels><labels>
+        <fullName>BPKeepGoingMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPKeepGoingMSG</shortDescription>
+        <value>Keep pushing hard, you still have {0} step(s) to go!</value>
+    </labels><labels>
+        <fullName>BPLastName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPLastName</shortDescription>
+        <value>Last Name</value>
+    </labels><labels>
+        <fullName>BPLastNameFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPLastNameFieldRequired</shortDescription>
+        <value>Last Name is a required field!</value>
+    </labels><labels>
+        <fullName>BPMessageOptional</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMessageOptional</shortDescription>
+        <value>Message (Optional)</value>
+    </labels><labels>
+        <fullName>BPMobilePhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMobilePhone</shortDescription>
+        <value>Mobile Phone</value>
+    </labels><labels>
+        <fullName>BPMobilePhoneFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMobilePhoneFieldRequired</shortDescription>
+        <value>Ermegency contact's Mobile Phone is a required field!</value>
+    </labels><labels>
+        <fullName>BPMoreTheOnePhotoMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMoreTheOnePhotoMSG</shortDescription>
+        <value>Ops! You are trying to upload more the one photo. :/</value>
+    </labels><labels>
+        <fullName>BPMyApplications</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMyApplications</shortDescription>
+        <value>My Applications</value>
+    </labels><labels>
+        <fullName>BPMyProfile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPMyProfile</shortDescription>
+        <value>My Profile</value>
+    </labels><labels>
+        <fullName>BPNameOnCard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNameOnCard</shortDescription>
+        <value>Card Holder Name (as shown on card)</value>
+    </labels><labels>
+        <fullName>BPNameOnCardFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNameOnCardFieldRequired</shortDescription>
+        <value>Card Holder Name (as shown on card) is mandatory!</value>
+    </labels><labels>
+        <fullName>BPNewEducation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNewEducation</shortDescription>
+        <value>Add Education</value>
+    </labels><labels>
+        <fullName>BPNewMinistry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNewMinistry</shortDescription>
+        <value>Add Ministry</value>
+    </labels><labels>
+        <fullName>BPNewWork</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNewWork</shortDescription>
+        <value>Add Work</value>
+    </labels><labels>
+        <fullName>BPNoWay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNoWay</shortDescription>
+        <value>No way! :/</value>
+    </labels><labels>
+        <fullName>BPNotReadyToApply</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPNotReadyToApply</shortDescription>
+        <value>Not ready to Apply</value>
+    </labels><labels>
+        <fullName>BPOneExperienceRequiredMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPOneExperienceRequiredMSG</shortDescription>
+        <value>Oh wait! You need at least one Experience. It can be either Education, Work or Ministry, ok?</value>
+    </labels><labels>
+        <fullName>BPPartnershipAgreementTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Partnership Agreement Title</shortDescription>
+        <value>Partnership Agreement</value>
+    </labels><labels>
+        <fullName>BPPaySchoolFees</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPaySchoolFees</shortDescription>
+        <value>Pay School Fees</value>
+    </labels><labels>
+        <fullName>BPPayment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPayment</shortDescription>
+        <value>Payment</value>
+    </labels><labels>
+        <fullName>BPPaymentAmountCHFSwissFrancs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPaymentAmountCHFSwissFrancs</shortDescription>
+        <value>Payment Amount (CHF - Swiss Francs)</value>
+    </labels><labels>
+        <fullName>BPPaymentAmountFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPaymentAmountFieldRequired</shortDescription>
+        <value>Payment Amount is mandatory!</value>
+    </labels><labels>
+        <fullName>BPPaymentAndRefundPolicyInThePDFLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Payment and Refund Policy in the PDF Link</shortDescription>
+        <value>Payment and Refund Policy in the PDF</value>
+    </labels><labels>
+        <fullName>BPPaymentSentSuccessfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPaymentSentSuccessfully</shortDescription>
+        <value>Payment sent successfully!</value>
+    </labels><labels>
+        <fullName>BPPersonalInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPersonalInfo</shortDescription>
+        <value>Personal Info</value>
+    </labels><labels>
+        <fullName>BPPersonalInfoMissing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPersonalInfoMissing</shortDescription>
+        <value>Oh no! Personal Information is incomplete, let's get it done?</value>
+    </labels><labels>
+        <fullName>BPPhotoSaved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPhotoSaved</shortDescription>
+        <value>Photo saved</value>
+    </labels><labels>
+        <fullName>BPPhotoSavedSuccessfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPhotoSavedSuccessfully</shortDescription>
+        <value>Your profile photo was saved successfully!!</value>
+    </labels><labels>
+        <fullName>BPPleaseDoubleCheckInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPleaseDoubleCheckInformation</shortDescription>
+        <value>Please, double check your information. It seems something went wrong!</value>
+    </labels><labels>
+        <fullName>BPPleaseUploadYourPhotoMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPleaseUploadYourPhotoMSG</shortDescription>
+        <value>Please, upload your photo first!</value>
+    </labels><labels>
+        <fullName>BPProfileCompleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileCompleted</shortDescription>
+        <value>Profile completed</value>
+    </labels><labels>
+        <fullName>BPProfileCompletedMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileCompletedMSG</shortDescription>
+        <value>Well done! Your profile is complete and you are ready to apply. :)</value>
+    </labels><labels>
+        <fullName>BPProfileImcompleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileIncompleted</shortDescription>
+        <value>Profile Incompleted</value>
+    </labels><labels>
+        <fullName>BPProfileImcompletedMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileIncompletedMSG</shortDescription>
+        <value>Once you fill in your personal details then you will be able to choose the school you want to apply for. :)</value>
+    </labels><labels>
+        <fullName>BPProfileNameAUX</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileNameAUX</shortDescription>
+        <value>'s Profile</value>
+    </labels><labels>
+        <fullName>BPProfileSavedSuccessfullyMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPProfileSavedSuccessfullyMSG</shortDescription>
+        <value>Your profile information was saved successfully!</value>
+    </labels><labels>
+        <fullName>BPQuestions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPQuestions</shortDescription>
+        <value>Questions</value>
+    </labels><labels>
+        <fullName>BPReadyForSubmit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPReadyForSubmit</shortDescription>
+        <value>Ready for submit</value>
+    </labels><labels>
+        <fullName>BPReadyForSubmitMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPReadyForSubmitMSG</shortDescription>
+        <value>Wooow! Hey YWAMer, your application is ready to submit. Look it over and just do it!! ;)</value>
+    </labels><labels>
+        <fullName>BPReadyToApply</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPReadyToApply</shortDescription>
+        <value>Ready to Apply</value>
+    </labels><labels>
+        <fullName>BPReference</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPReference</shortDescription>
+        <value>Reference</value>
+    </labels><labels>
+        <fullName>BPReferences</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPReferences</shortDescription>
+        <value>References</value>
+    </labels><labels>
+        <fullName>BPRelationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPRelationship</shortDescription>
+        <value>Relationship</value>
+    </labels><labels>
+        <fullName>BPRelationshipFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPRelationshipFieldRequired</shortDescription>
+        <value>Ermegency contact's Relationship is a required field!</value>
+    </labels><labels>
+        <fullName>BPRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPRequired</shortDescription>
+        <value>Required</value>
+    </labels><labels>
+        <fullName>BPRequiredField</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPRequiredField</shortDescription>
+        <value>Required Field</value>
+    </labels><labels>
+        <fullName>BPSave</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSave</shortDescription>
+        <value>Save</value>
+    </labels><labels>
+        <fullName>BPSavedSuccessfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSavedSuccessfully</shortDescription>
+        <value>Saved Successfully!</value>
+    </labels><labels>
+        <fullName>BPSavedSuccessfullyMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSavedSuccessfullyMSG</shortDescription>
+        <value>Your information was saved successfully!</value>
+    </labels><labels>
+        <fullName>BPSchoolCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSchoolCode</shortDescription>
+        <value>School Code</value>
+    </labels><labels>
+        <fullName>BPSelect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSelect</shortDescription>
+        <value>Select</value>
+    </labels><labels>
+        <fullName>BPSomethingReallyWeirdHappened</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSomethingReallyWeirdHappened</shortDescription>
+        <value>Something really weird happened. Would you mind to let us know that your payment didn't go through?</value>
+    </labels><labels>
+        <fullName>BPStartDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPStartDate</shortDescription>
+        <value>Start Date</value>
+    </labels><labels>
+        <fullName>BPSubmit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPSubmit</shortDescription>
+        <value>Submit</value>
+    </labels><labels>
+        <fullName>BPThankYouForYourSupport</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPThankYouForYourSupport</shortDescription>
+        <value>Thank you for your support</value>
+    </labels><labels>
+        <fullName>BPThisButtonWillBeActiveOnce</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPThisButtonWillBeActiveOnce</shortDescription>
+        <value>This button will be active once your application is approved.</value>
+    </labels><labels>
+        <fullName>BPTo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPTo</shortDescription>
+        <value>To</value>
+    </labels><labels>
+        <fullName>BPTracksDegrees</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPTracksDegrees</shortDescription>
+        <value>Tracks and Degrees</value>
+    </labels><labels>
+        <fullName>BPType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPType</shortDescription>
+        <value>Type</value>
+    </labels><labels>
+        <fullName>BPUpcoming</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPUpcoming</shortDescription>
+        <value>Upcoming</value>
+    </labels><labels>
+        <fullName>BPUploadPhoto</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPUploadPhoto</shortDescription>
+        <value>Upload Photo</value>
+    </labels><labels>
+        <fullName>BPWaiverAndReleaseOfLiabilityText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Waiver and Release of Liability Text</shortDescription>
+        <value>I do hereby release Youth With a Mission Lausanne, its agents, employees, and volunteer assistants from any liability whatsoever arising out of any injury, damage or loss which may be sustained by myself or other persons during my/their course of involvement with Youth With a Mission Lausanne.</value>
+    </labels><labels>
+        <fullName>BPWaiverAndReleaseOfLiabilityTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Waiver and Release of Liability Title</shortDescription>
+        <value>Waiver and Release of Liability</value>
+    </labels><labels>
+        <fullName>BPWelcome</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPWelcomeYWAMer</shortDescription>
+        <value>Welcome, YWAMer!</value>
+    </labels><labels>
+        <fullName>BPYWAMerAboutToSubmitAPP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYWAMerAboutToSubmitAPP</shortDescription>
+        <value>Hey YWAMer, you are about to submit this application but you won’t be able to change it afterwards. Are you sure?</value>
+    </labels><labels>
+        <fullName>BPYouAreApproved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYouAreApproved</shortDescription>
+        <value>You are approved!</value>
+    </labels><labels>
+        <fullName>BPYouAreApprovedMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYouAreApprovedMSG</shortDescription>
+        <value>Congratulations! You are approved, whenever you have your arrival information, please go to the section 'My Applications' and fill it in.</value>
+    </labels><labels>
+        <fullName>BPYouAreAt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYouAreAt</shortDescription>
+        <value>You are at</value>
+    </labels><labels>
+        <fullName>BPYouHavetoHaveEmergencyContactMSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYouHavetoHaveEmergencyContactMSG</shortDescription>
+        <value>Sorry! You have got to have an emergency contact!</value>
+    </labels><labels>
+        <fullName>BPYouJustStartedYourApplication</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPYouJustStartedYourApplication</shortDescription>
+        <value>You just started your application. So exciting!</value>
+    </labels><labels>
+        <fullName>BP_PartnershipAgreementText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP_Partnership Agreement Text</shortDescription>
+        <value>All releases, declarations and commitments must be agreed to before your application can be finalized.</value>
+    </labels><labels>
+        <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a cross-object fieldsset is not allowed and attempted.</shortDescription>
+        <value>Cross-object fields not allowed and field "{0}" is a cross-object field.</value>
+    </labels><labels>
+        <fullName>fflib_QueryFactory_fieldset_wrong_sobject_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a field set for a different sobject type.</shortDescription>
+        <value>Field set "{0}" is not for SObject type "{1}"</value>
+    </labels><labels>
+        <fullName>fflib_QueryFactory_recursive_subquery_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to nest subqueries.</shortDescription>
+        <value>Invalid call to subselectQuery.  You may not add a subselect query to a subselect query.</value>
+    </labels><labels>
+        <fullName>fflib_QueryFactory_subquery_invalid_relationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to create a subquery from an invalid relationship.</shortDescription>
+        <value>Invalid call to subselectQuery.  Invalid relationship for table.</value>
+    </labels><labels>
+        <fullName>fflib_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels><labels>
+        <fullName>fflib_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels></CustomLabels>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Education, Work &amp; Ministry Experience</relationshipLabel>
+        <relationshipName>EducationWorkMinistryExperience</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>From__c</fullName>
+        <externalId>false</externalId>
+        <label>From</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>PMLeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PM Leader</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>PracticalMinistry__c</fullName>
+        <externalId>false</externalId>
+        <label>Practical Ministry</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Breakfast Prep</fullName>
+                    <default>false</default>
+                    <label>Breakfast Prep</label>
+                </value>
+                <value>
+                    <fullName>Cafe des Alpes</fullName>
+                    <default>false</default>
+                    <label>Cafe des Alpes</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Dinner Clean Up</fullName>
+                    <default>false</default>
+                    <label>Dinner Clean Up</label>
+                </value>
+                <value>
+                    <fullName>Dinner Prep</fullName>
+                    <default>false</default>
+                    <label>Dinner Prep</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Housekeeping</fullName>
+                    <default>false</default>
+                    <label>Housekeeping</label>
+                </value>
+                <value>
+                    <fullName>Lunch Clean Up</fullName>
+                    <default>false</default>
+                    <label>Lunch Clean Up</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Reception</fullName>
+                    <default>false</default>
+                    <label>Reception</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>To__c</fullName>
+        <externalId>false</externalId>
+        <label>To</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>false</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Education, Work &amp; Ministry Experience</label><nameField>
+        <label>Education, Work &amp; Ministry Experience Name</label>
+        <type>Text</type>
+    </nameField><pluralLabel>Education, Work &amp; Ministry Experience</pluralLabel><searchLayouts /><sharingModel>ControlledByParent</sharingModel><visibility>Public</visibility><recordTypes>
+        <fullName>Education</fullName>
+        <active>true</active>
+        <description>Higher education and other training experience</description>
+        <label>Education</label>
+        <picklistValues>
+            <picklist>PracticalMinistry__c</picklist>
+            <values>
+                <fullName>Breakfast Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cafe des Alpes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Ministry</fullName>
+        <active>true</active>
+        <description>Includes both YWAM/UofN and other ministries/organizations</description>
+        <label>Ministry</label>
+        <picklistValues>
+            <picklist>PracticalMinistry__c</picklist>
+            <values>
+                <fullName>Breakfast Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cafe des Alpes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>PracticalMinistry</fullName>
+        <active>true</active>
+        <description>YWAM Lausanne Practical Ministry experience</description>
+        <label>Practical Ministry</label>
+        <picklistValues>
+            <picklist>PracticalMinistry__c</picklist>
+            <values>
+                <fullName>Breakfast Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cafe des Alpes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>PracticalMinistryForm</fullName>
+        <active>true</active>
+        <description>Used for the PM form that students fill in at the start of the quarter</description>
+        <label>Practical Ministry Form</label>
+        <picklistValues>
+            <picklist>PracticalMinistry__c</picklist>
+            <values>
+                <fullName>Breakfast Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cafe des Alpes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Work</fullName>
+        <active>true</active>
+        <description>Jobs and other non ministry related work experience</description>
+        <label>Work</label>
+        <picklistValues>
+            <picklist>PracticalMinistry__c</picklist>
+            <values>
+                <fullName>Breakfast Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cafe des Alpes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinner Prep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lunch Clean Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reception</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes></CustomObject>

@@ -1,0 +1,1873 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Ability to Follow --></label>
+        <name>AbilityToFollow__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- How well do you speak English? (1 being not proficient - 5 being proficient) --></help>
+        <label><!-- Ability to Speak English --></label>
+        <name>AbilityToSpeakEnglish__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Ability to Work With Others --></label>
+        <name>AbilityToWorkWithOthers__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- How well can you write in English? --></help>
+        <label><!-- Ability to Write English --></label>
+        <name>AbilityToWriteEnglish__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Addiction --></label>
+        <name>Addiction__c</name>
+    </fields><fields>
+        <help><!-- Do you currently struggle with alcohol, smoking or any other addiction? --></help>
+        <label><!-- Alcohol, Smoking, Addictions --></label>
+        <name>AlcoholSmokingAddictions__c</name>
+    </fields><fields>
+        <help><!-- Do you have your complete lecture phase fees? --></help>
+        <label><!-- All Lecture Phase Fees --></label>
+        <name>AllLecturePhaseFees__c</name>
+    </fields><fields>
+        <help><!-- Do you have your complete outreach phase fees? (approximately CHF 2,500 - 5, 000) --></help>
+        <label><!-- All Outreach Phase Fees --></label>
+        <name>AllOutreachPhaseFees__c</name>
+    </fields><fields>
+        <label><!-- Anemia --></label>
+        <name>Anemia__c</name>
+    </fields><fields>
+        <label><!-- Anxiety --></label>
+        <name>Anxiety__c</name>
+    </fields><fields>
+        <help><!-- Is there any further information that you think would help us as we consider your application? --></help>
+        <label><!-- Any Additional Comments --></label>
+        <name>AnyAdditionalComments__c</name>
+    </fields><fields>
+        <label><!-- Application Contact Header --></label>
+        <name>ApplicationContactHeader__c</name>
+    </fields><fields>
+        <label><!-- Application Type --></label>
+        <name>ApplicationType__c</name>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation><!-- 2nd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DTS</masterLabel>
+            <translation><!-- DTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELM</masterLabel>
+            <translation><!-- ELM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLD</masterLabel>
+            <translation><!-- MLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUT</masterLabel>
+            <translation><!-- OUT --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Please check the box if you are in debt. --></help>
+        <label><!-- Are You in Debt? --></label>
+        <name>AreYouInDebt__c</name>
+    </fields><fields>
+        <label><!-- Are You Pregnant --></label>
+        <name>AreYouPregnant__c</name>
+    </fields><fields>
+        <help><!-- Are you currently taking any medication? --></help>
+        <label><!-- Are You Taking Any Medication? --></label>
+        <name>AreYouTakingAnyMedication__c</name>
+    </fields><fields>
+        <help><!-- If yes, please explain what you are seeking help for. --></help>
+        <label><!-- Are You Under a Doctor&apos;s Care? --></label>
+        <name>AreYouUnderADoctorsCare__c</name>
+    </fields><fields>
+        <label><!-- Arthritis --></label>
+        <name>Arthritis__c</name>
+    </fields><fields>
+        <label><!-- Asthma --></label>
+        <name>Asthma__c</name>
+    </fields><fields>
+        <label><!-- Back Trouble --></label>
+        <name>BackTrouble__c</name>
+    </fields><fields>
+        <label><!-- Broken Bones --></label>
+        <name>BrokenBones__c</name>
+    </fields><fields>
+        <label><!-- Church Address --></label>
+        <name>ChurchAddress__c</name>
+    </fields><fields>
+        <help><!-- How long have you attended this Church? --></help>
+        <label><!-- Church Attendance in Years --></label>
+        <name>ChurchAttendanceInYears__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation><!-- 31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32</masterLabel>
+            <translation><!-- 32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation><!-- 33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation><!-- 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation><!-- 36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37</masterLabel>
+            <translation><!-- 37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38</masterLabel>
+            <translation><!-- 38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39</masterLabel>
+            <translation><!-- 39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Church Telephone --></label>
+        <name>ChurchTelephone__c</name>
+    </fields><fields>
+        <label><!-- Church Web Page --></label>
+        <name>ChurchWebPage__c</name>
+    </fields><fields>
+        <label><!-- Community Living Standards --></label>
+        <name>CommunityLivingStandards__c</name>
+    </fields><fields>
+        <help><!-- Please check the box if you have completed high school. --></help>
+        <label><!-- Completed High School --></label>
+        <name>CompletedHighSchool__c</name>
+    </fields><fields>
+        <label><!-- Concern for Others --></label>
+        <name>ConcernforOthers__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Consent for Treatment --></label>
+        <name>ConsentforTreatment__c</name>
+    </fields><fields>
+        <label><!-- Contact Email (Auto Update) --></label>
+        <name>ContactEmailAutoUpdate__c</name>
+    </fields><fields>
+        <label><!-- Contact Photo --></label>
+        <name>ContactPhoto__c</name>
+    </fields><fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Application --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Please check the box if you have ever been convicted of a criminal offence. --></help>
+        <label><!-- Do You Have a Criminal Record --></label>
+        <name>CriminalRecord__c</name>
+    </fields><fields>
+        <help><!-- Do you receive ongoing/regular financial support every month? --></help>
+        <label><!-- Financial supporters and statements --></label>
+        <name>CurrentFinancialSupportAmount__c</name>
+    </fields><fields>
+        <label><!-- DTS/Outreach/YWAM Experience:Place/Date --></label>
+        <name>DTSOutreachYWAMExperiencePlaceDate__c</name>
+    </fields><fields>
+        <help><!-- I declare that the information provided in this entire application is true and correct. --></help>
+        <label><!-- I Declare that All Information is True --></label>
+        <name>Declaration__c</name>
+    </fields><fields>
+        <label><!-- Depression --></label>
+        <name>Depression__c</name>
+    </fields><fields>
+        <label><!-- Diphtheria --></label>
+        <name>Diphtheria__c</name>
+    </fields><fields>
+        <label><!-- Dislocated Joints --></label>
+        <name>DislocatedJoints__c</name>
+    </fields><fields>
+        <help><!-- Please check if you have any dietary needs. --></help>
+        <label><!-- Do You Have Any Dietary Needs? --></label>
+        <name>DoYouHaveAnyDietaryNeeds__c</name>
+    </fields><fields>
+        <help><!-- Do you have any current ongoing Health Conditions? --></help>
+        <label><!-- Do You Have Any Health Conditions? --></label>
+        <name>DoYouHaveAnyHealthConditions__c</name>
+    </fields><fields>
+        <help><!-- If so, please put down their names. --></help>
+        <label><!-- Do you know any YWAM Lausanne staff? --></label>
+        <name>DoYouKnowAnyYWAMLausanneStaff__c</name>
+    </fields><fields>
+        <label><!-- Drug Allergy --></label>
+        <name>DrugAllergy__c</name>
+    </fields><fields>
+        <label><!-- Ear Trouble --></label>
+        <name>EarTrouble__c</name>
+    </fields><fields>
+        <label><!-- Eating Disorders --></label>
+        <name>EatingDisorders__c</name>
+    </fields><fields>
+        <label><!-- Emotional Stability --></label>
+        <name>EmotionalStability__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Environmental Allergy --></label>
+        <name>Environmental__c</name>
+    </fields><fields>
+        <label><!-- Epilepsy --></label>
+        <name>Epilepsy__c</name>
+    </fields><fields>
+        <label><!-- Eye Trouble --></label>
+        <name>EyeTrouble__c</name>
+    </fields><fields>
+        <label><!-- Fainting Spells --></label>
+        <name>FaintingSpells__c</name>
+    </fields><fields>
+        <label><!-- Financial Responsibility --></label>
+        <name>FinancialResponsibilityOne__c</name>
+    </fields><fields>
+        <label><!-- Financial Responsibility --></label>
+        <name>FinancialResponsibility__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Flexibility/Openness to Change --></label>
+        <name>FlexibilityOpennesstoChange__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Food Allergy --></label>
+        <name>FoodAllergy__c</name>
+    </fields><fields>
+        <label><!-- Friend Reference Completed Date --></label>
+        <name>FriendReferenceCompletedDate__c</name>
+    </fields><fields>
+        <label><!-- Friend Reference Email --></label>
+        <name>FriendReferenceEmail__c</name>
+    </fields><fields>
+        <label><!-- Friend Reference First Name --></label>
+        <name>FriendReferenceFirstName__c</name>
+    </fields><fields>
+        <label><!-- Friend Reference Language --></label>
+        <name>FriendReferenceLanguage__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation><!-- Korean --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Friend Reference Last Name --></label>
+        <name>FriendReferenceLastName__c</name>
+    </fields><fields>
+        <label><!-- Friend Reference Status --></label>
+        <name>FriendReferenceStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Needed</masterLabel>
+            <translation><!-- Not Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Complete</masterLabel>
+            <translation><!-- Not Yet Complete --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Are you considering any further training or Ministry with YWAM after this program? If so, please specify. --></help>
+        <label><!-- Further Training or Ministry With YWAM --></label>
+        <name>FurtherTrainingOrMinistryWithYWAM__c</name>
+    </fields><fields>
+        <label><!-- Furthest Step Completed --></label>
+        <name>FurthestStepCompleted__c</name>
+    </fields><fields>
+        <label><!-- Gall Bladder Trouble --></label>
+        <name>GallBladderTrouble__c</name>
+    </fields><fields>
+        <label><!-- Grateful Spirit --></label>
+        <name>GratefulSpirit__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Heart Trouble --></label>
+        <name>HeartTrouble__c</name>
+    </fields><fields>
+        <label><!-- Height (cm) --></label>
+        <name>Heightcm__c</name>
+    </fields><fields>
+        <label><!-- Hepatitis A --></label>
+        <name>HepatitisA__c</name>
+    </fields><fields>
+        <label><!-- HepatitisB --></label>
+        <name>HepatitisB__c</name>
+    </fields><fields>
+        <label><!-- Hepatitis --></label>
+        <name>Hepatitis__c</name>
+    </fields><fields>
+        <help><!-- Please describe your history of learning English. --></help>
+        <label><!-- History of Learned English --></label>
+        <name>HistoryofLearnedEnglish__c</name>
+    </fields><fields>
+        <help><!-- Describe how you came to know Jesus personally. --></help>
+        <label><!-- How Did You Come to Know Jesus --></label>
+        <name>HowDidYouComeToKnowJesus__c</name>
+    </fields><fields>
+        <help><!-- How did you hear about YWAM Lausanne?(i.e. SNS, Friends,Webpage, Book...) --></help>
+        <label><!-- How Did You Hear About YWAM Lausanne? --></label>
+        <name>HowDidYouHearAboutYWAMLausanne__c</name>
+    </fields><fields>
+        <help><!-- How are you seeking help and support to overcome your struggles and challenges? --></help>
+        <label><!-- How Do You Overcome Your Sturggles --></label>
+        <name>HowDoYouOvercomeYourSturggles__c</name>
+    </fields><fields>
+        <help><!-- International English Testing System (IELTS) Score --></help>
+        <label><!-- IELTS Score --></label>
+        <name>IELTSScore__c</name>
+    </fields><fields>
+        <help><!-- Please check the box if you have been in Europe in the past 180 days. --></help>
+        <label><!-- Have been in Europe in the past 180 days --></label>
+        <name>IHaveBeenInEUInThePast180Days__c</name>
+    </fields><fields>
+        <help><!-- If no, how do you plan on raising this support? --></help>
+        <label><!-- If No, How Do You Plan On Raising Funds? --></label>
+        <name>IfNoHowDoYouPlanOnRaisingThis__c</name>
+    </fields><fields>
+        <help><!-- If yes, please describe and provide a doctors note. --></help>
+        <label><!-- If Yes,Describe/provide a doctors note --></label>
+        <name>IfYesDescribeProvideADoctorsNote__c</name>
+    </fields><fields>
+        <help><!-- If yes, how much? --></help>
+        <label><!-- If yes, how much? --></label>
+        <name>IfYesHowMuch__c</name>
+    </fields><fields>
+        <help><!-- If yes, please state the Country, Arrival date, and Departure date. --></help>
+        <label><!-- If yes, Location and Date --></label>
+        <name>IfYesLocationAndDate__c</name>
+    </fields><fields>
+        <help><!-- Please describe the history of your medical conditions. --></help>
+        <label><!-- If Yes, Please Explain --></label>
+        <name>IfYesToAnyAboveMedical__c</name>
+    </fields><fields>
+        <help><!-- If yes, please describe. --></help>
+        <label><!-- If Yes to Criminal Record --></label>
+        <name>IfYesToCriminalRecord__c</name>
+    </fields><fields>
+        <help><!-- If yes, who are you in debt to? --></help>
+        <label><!-- If Yes, Who Are You In Debt To --></label>
+        <name>IfYesWhoAreYouInDebtTo__c</name>
+    </fields><fields>
+        <label><!-- Industrial/Hard Worker --></label>
+        <name>IndustrialHardWorker__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Initiative/Self Starter --></label>
+        <name>InitiativeSelfStarter__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Intestinal Troubles --></label>
+        <name>IntestinalTroubles__c</name>
+    </fields><fields>
+        <label><!-- Jaundice --></label>
+        <name>Jaundice__c</name>
+    </fields><fields>
+        <label><!-- Kidney Disease --></label>
+        <name>KidneyDisease__c</name>
+    </fields><fields>
+        <label><!-- Leader Reference Completed Date --></label>
+        <name>LeaderReferenceCompletedDate__c</name>
+    </fields><fields>
+        <label><!-- Leader Reference Email --></label>
+        <name>LeaderReferenceEmail__c</name>
+    </fields><fields>
+        <label><!-- Leader Reference First Name --></label>
+        <name>LeaderReferenceFirstName__c</name>
+    </fields><fields>
+        <label><!-- Leader Reference Language --></label>
+        <name>LeaderReferenceLanguage__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation><!-- Korean --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Leader Reference Last Name --></label>
+        <name>LeaderReferenceLastName__c</name>
+    </fields><fields>
+        <label><!-- Leader Reference Status --></label>
+        <name>LeaderReferenceStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Needed</masterLabel>
+            <translation><!-- Not Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Completed</masterLabel>
+            <translation><!-- Not Yet Completed --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Leadership Ability --></label>
+        <name>LeadershipAbility__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Mental Health Trouble --></label>
+        <name>MentalHealthTrouble__c</name>
+    </fields><fields>
+        <label><!-- Mumps --></label>
+        <name>Mumps__c</name>
+    </fields><fields>
+        <label><!-- Name of Church --></label>
+        <name>NameOfChurch__c</name>
+    </fields><fields>
+        <help><!-- If not, how much do you currently have toward your lecture fees and how do you plan on raising the funds for the program? --></help>
+        <label><!-- No to (Lecture Fees) --></label>
+        <name>NoToLectureFees__c</name>
+    </fields><fields>
+        <help><!-- If not, how much do you currently have toward your outreach fees and how do you plan on raising the funds for the program? --></help>
+        <label><!-- No to (Outreach Fees) --></label>
+        <name>NoToOutreachFees__c</name>
+    </fields><fields>
+        <help><!-- Do you understand that a 1 year commitment is required following the duration of this program? --></help>
+        <label><!-- One Year Commitment Agreement --></label>
+        <name>OneYearCommitmentDuration__c</name>
+    </fields><fields>
+        <label><!-- Online Application Language --></label>
+        <name>OnlineApplicationLanguage__c</name>
+    </fields><fields>
+        <help><!-- What is your current overall health condition? --></help>
+        <label><!-- Overall Health Condition --></label>
+        <name>OverallHealthCondition__c</name>
+        <picklistValues>
+            <masterLabel>Excellent</masterLabel>
+            <translation><!-- Excellent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Application Submitted --></label>
+        <name>P1Completed__c</name>
+    </fields><fields>
+        <label><!-- P2 Completed --></label>
+        <name>P2Completed__c</name>
+    </fields><fields>
+        <label><!-- Paralysis --></label>
+        <name>Paralysis__c</name>
+    </fields><fields>
+        <label><!-- Pastor&apos;s Email --></label>
+        <name>PastorsEmail__c</name>
+    </fields><fields>
+        <label><!-- Pastor&apos;s Name --></label>
+        <name>PastorsName__c</name>
+    </fields><fields>
+        <label><!-- Personal Appearance --></label>
+        <name>PersonalAppearance__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Pertussis --></label>
+        <name>Pertussis__c</name>
+    </fields><fields>
+        <help><!-- Please list your educational background. --></help>
+        <label><!-- Please List Your Education Experience --></label>
+        <name>PleaseListYourEducationExperience__c</name>
+    </fields><fields>
+        <help><!-- Please list your work experience. --></help>
+        <label><!-- Please List Your Work Experience --></label>
+        <name>PleaseListYourWorkExperience__c</name>
+    </fields><fields>
+        <label><!-- Polio --></label>
+        <name>Polio__c</name>
+    </fields><fields>
+        <label><!-- Positive Attitude --></label>
+        <name>PositiveAttitude__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- What is your relationship with God like at the moment? --></help>
+        <label><!-- Present Relationship with God --></label>
+        <name>PresentRelationshipWithGod__c</name>
+    </fields><fields>
+        <help><!-- Have you had any previous mission experiences or training? This includes any YWAM Training or YWAM Ministry you&apos;ve done. --></help>
+        <label><!-- Previous Missions Experiences/Training --></label>
+        <name>PreviousMissionsExperiencesTraining__c</name>
+    </fields><fields>
+        <help><!-- What are your purposes for joining us as staff? (i.e your expectations, motivations, and outcomes you&apos;re looking for?) --></help>
+        <label><!-- Purpose for joining as a staff --></label>
+        <name>PurposeForJoiningAsAStaff__c</name>
+    </fields><fields>
+        <help><!-- What are your purposes for joining this program? (i.e your expectations, motivations, and outcomes you&apos;re looking for?) --></help>
+        <label><!-- Purpose for Joining the Program --></label>
+        <name>PurposeForJoiningTheProgram__c</name>
+    </fields><fields>
+        <help><!-- What are your purposes for joining us as a Mission Builder? (i.e your expectations, motivations, and outcomes you&apos;re looking for?) --></help>
+        <label><!-- Purposes for joining Mission Builder --></label>
+        <name>PurposesForMissionBuilder__c</name>
+    </fields><fields>
+        <label><!-- Recurrent Diarrhea --></label>
+        <name>RecurrentDiarrhea__c</name>
+    </fields><fields>
+        <label><!-- Recurrent Headache --></label>
+        <name>RecurrentHeadache__c</name>
+    </fields><fields>
+        <label><!-- Referee Leader (Contact) --></label>
+        <name>RefereeLeaderContact__c</name>
+        <relationshipLabel><!-- Applications (Referee Leader (Contact)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Referee Teacher/Employee (Contact) --></label>
+        <name>RefereeTeacherEmployeeContact__c</name>
+        <relationshipLabel><!-- Applications (Referee Teacher/Employee (Contact)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Relation to Applicant (SL) --></label>
+        <name>RelationToApplicant1__c</name>
+    </fields><fields>
+        <label><!-- Relation To Applicant (TE) --></label>
+        <name>RelationToApplicant2__c</name>
+    </fields><fields>
+        <help><!-- Relation To Applicant --></help>
+        <label><!-- Relation To Applicant3 --></label>
+        <name>RelationToApplicant3__c</name>
+    </fields><fields>
+        <label><!-- Release From Liability --></label>
+        <name>ReleaseFromLiability__c</name>
+    </fields><fields>
+        <label><!-- Reliability --></label>
+        <name>Reliability__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Response to Authority Figures --></label>
+        <name>ResponsetoAuthorityFigures__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Response to Pressures/Stress --></label>
+        <name>ResponsetoPressuresStress__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Rubella --></label>
+        <name>Rubella__c</name>
+    </fields><fields>
+        <help><!-- What areas of your character are you personally seeking God to further develop and/or improve? --></help>
+        <label><!-- Seeking God to develop --></label>
+        <name>SeekingGodToDevelop__c</name>
+    </fields><fields>
+        <help><!-- What areas of your character are you personally seeking God to further develop and/or improve? --></help>
+        <label><!-- Areas Where You Need To Grow And Develop --></label>
+        <name>SeekingHelpandSupporttoOvercome__c</name>
+    </fields><fields>
+        <label><!-- Servant Heart --></label>
+        <name>ServantHeart__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Shortness Of Breath --></label>
+        <name>ShortnessOfBreath__c</name>
+    </fields><fields>
+        <label><!-- Skin Conditions --></label>
+        <name>SkinConditions__c</name>
+    </fields><fields>
+        <label><!-- Sleeping Disorder --></label>
+        <name>SleepingDisorder__c</name>
+    </fields><fields>
+        <label><!-- Application Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to submit</masterLabel>
+            <translation><!-- Ready to submit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Approval</masterLabel>
+            <translation><!-- Waiting for Approval --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- What are some struggles and challenges you are dealing with or have dealt with in the past? --></help>
+        <label><!-- Struggles and Challenges --></label>
+        <name>StrugglesAndChallenges__c</name>
+    </fields><fields>
+        <help><!-- Test of English as a Foreign Language (TOEFL) Score --></help>
+        <label><!-- TOEFL/TOEIC Score --></label>
+        <name>TOEFLScore__c</name>
+    </fields><fields>
+        <help><!-- Please share with us about your talents, skills and strengths(music, computers, sports, hospitality, administration, relational skills, etc.) --></help>
+        <label><!-- Talents,Skills and Strengths --></label>
+        <name>TalentsSkillsAndStrengths__c</name>
+    </fields><fields>
+        <label><!-- Teachable Spirit --></label>
+        <name>TeachableSpirit__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Teacher/Emp. Ref. Completed Date --></label>
+        <name>TeacherEmpRefCompletedDate__c</name>
+    </fields><fields>
+        <label><!-- Teacher/Emp. Ref. Status --></label>
+        <name>TeacherEmpRefStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Needed</masterLabel>
+            <translation><!-- Not Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Complete</masterLabel>
+            <translation><!-- Not Yet Complete --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Teacher/Emp. Reference Language --></label>
+        <name>TeacherEmpReferenceLanguage__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation><!-- Korean --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Teacher/Employer Ref. Email --></label>
+        <name>TeacherEmployerRefEmail__c</name>
+    </fields><fields>
+        <label><!-- Teacher/Employer Ref. First Name --></label>
+        <name>TeacherEmployerRefFirstName__c</name>
+    </fields><fields>
+        <label><!-- Teacher/Employer Ref. Last Name --></label>
+        <name>TeacherEmployerRefLastName__c</name>
+    </fields><fields>
+        <label><!-- Tetanus --></label>
+        <name>Tetanus__c</name>
+    </fields><fields>
+        <help><!-- This is help text --></help>
+        <label><!-- Text Test --></label>
+        <name>TextTest__c</name>
+    </fields><fields>
+        <label><!-- Tumor or Cancer --></label>
+        <name>TumorOrCancer__c</name>
+    </fields><fields>
+        <label><!-- Ulcers --></label>
+        <name>Ulcers__c</name>
+    </fields><fields>
+        <label><!-- Under Doctors Care --></label>
+        <name>UnderDoctorsCare__c</name>
+    </fields><fields>
+        <help><!-- How well can you understand spoken English --></help>
+        <label><!-- Understanding of Spoken English --></label>
+        <name>UnderstandingOfSpokenEnglish__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- How well can you understand written English? --></help>
+        <label><!-- Understanding Written English --></label>
+        <name>UnderstandingWrittenEnglish__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Weight (kg) --></label>
+        <name>WeightKG__c</name>
+    </fields><fields>
+        <help><!-- What areas of ministry interest you the most? 
+(i.e. teaching, children’s ministry, kitchen, administration, mercy ministry, urban ministry, design, performing arts, communications, music, hospitality, worship, evangelism, counseling, etc.) --></help>
+        <label><!-- What ministries interest you the most --></label>
+        <name>WhatMinistriesInterestYouTheMost__c</name>
+    </fields><fields>
+        <label><!-- Willingness to be Accountable --></label>
+        <name>WillingnessToBeAccountable__c</name>
+        <picklistValues>
+            <masterLabel>Above average</masterLabel>
+            <translation><!-- Above average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below average</masterLabel>
+            <translation><!-- Below average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- XrefId --></label>
+        <name>XrefId__c</name>
+    </fields><fields>
+        <label><!-- Yellow Fever --></label>
+        <name>YellowFever__c</name>
+    </fields><fields>
+        <help><!-- Please share some insight into your relationship with your family.  Are they supportive of you attending this school? --></help>
+        <label><!-- Relationship with your family --></label>
+        <name>YourRelationshipWithYourFamily__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Application (All Fields)</layout>
+        <sections>
+            <label><!-- Additional Questions --></label>
+            <section>Additional Questions</section>
+        </sections>
+        <sections>
+            <label><!-- Church Details --></label>
+            <section>Church Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confidential Health Form --></label>
+            <section>Confidential Health Form</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education, Work &amp; Ministry Background --></label>
+            <section>Education, Work &amp; Ministry Background</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Partnership Agreement --></label>
+            <section>Partnership Agreement</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>DTS-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>DTS-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation --></label>
+            <section>Financial Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Skills &amp; Talents --></label>
+            <section>Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>DTS-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Health History *Please check if applicable --></label>
+            <section>Health History *Please check if applicable</section>
+        </sections>
+        <sections>
+            <label><!-- Immunizations --></label>
+            <section>Immunizations</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Assessment --></label>
+            <section>Physical Assessment</section>
+        </sections>
+    </layouts><layouts>
+        <layout>DTS-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>DTS-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Pastor / Spiritual Leader / YWAM Leader Reference --></label>
+            <section>Pastor / Spiritual Leader / YWAM Leader Reference</section>
+        </sections>
+    </layouts><layouts>
+        <layout>ELM-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>ELM-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation --></label>
+            <section>Financial Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Skills &amp; Talents --></label>
+            <section>Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>ELM-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Health History *Please check if applicable --></label>
+            <section>Health History *Please check if applicable</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Assessment --></label>
+            <section>Physical Assessment</section>
+        </sections>
+    </layouts><layouts>
+        <layout>ELM-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>ELM-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Pastor / Spiritual Leader / YWAM Leader Reference --></label>
+            <section>Pastor / Spiritual Leader / YWAM Leader Reference</section>
+        </sections>
+    </layouts><layouts>
+        <layout>MB-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>MB-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation --></label>
+            <section>Financial Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Skills &amp; Talents --></label>
+            <section>Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>MB-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Health History *Please check if applicable --></label>
+            <section>Health History *Please check if applicable</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Assessment --></label>
+            <section>Physical Assessment</section>
+        </sections>
+    </layouts><layouts>
+        <layout>MB-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>MB-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Pastor/ Spiritual Leader / YWAM Leader Reference --></label>
+            <section>Pastor/ Spiritual Leader / YWAM Leader Reference</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Out/Sem-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Out/Sem-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation --></label>
+            <section>Financial Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Skills &amp; Talents --></label>
+            <section>Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Out/Sem-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Out/Sem-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Out/Sem-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Pastor / Spiritual Leader / YWAM Leader Reference --></label>
+            <section>Pastor / Spiritual Leader / YWAM Leader Reference</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Second-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Second-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation (Outreach if applicable) --></label>
+            <section>Financial Situation (Outreach if applicable)</section>
+        </sections>
+        <sections>
+            <label><!-- YWAM Experiences, Skills &amp; Talents --></label>
+            <section>YWAM Experiences, Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Second-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Health History *Please check if applicable --></label>
+            <section>Health History *Please check if applicable</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Assessment --></label>
+            <section>Physical Assessment</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Second-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Second-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- YWAM Leader Reference (Mandatory) --></label>
+            <section>YWAM Leader Reference (Mandatory)</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff/MLD-1.Questions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Self Evaluation --></label>
+            <section>Self Evaluation</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff/MLD-2.Experience</layout>
+        <sections>
+            <label><!-- Church Detail --></label>
+            <section>Church Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Criminal Record --></label>
+            <section>Criminal Record</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- English Proficiency --></label>
+            <section>English Proficiency</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Situation (Regarding Monthly support) --></label>
+            <section>Financial Situation (Regarding Monthly support)</section>
+        </sections>
+        <sections>
+            <label><!-- YWAM Experiences, Skills &amp; Talents --></label>
+            <section>YWAM Experiences, Skills &amp; Talents</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff/MLD-3.Health</layout>
+        <sections>
+            <label><!-- Current Heath Condition --></label>
+            <section>Current Heath Condition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Health History *Please check if applicable --></label>
+            <section>Health History *Please check if applicable</section>
+        </sections>
+        <sections>
+            <label><!-- Physical Assessment --></label>
+            <section>Physical Assessment</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff/MLD-4.Agreements</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff/MLD-5.References</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employer / Teacher / Friend Reference --></label>
+            <section>Employer / Teacher / Friend Reference</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- YWAM Leader Reference (Mandatory) --></label>
+            <section>YWAM Leader Reference (Mandatory)</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Application --></label>
+        <name>Application</name>
+    </recordTypes><recordTypes>
+        <label><!-- DTS - 1. Questions --></label>
+        <name>DTS1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- DTS - 2. Experience --></label>
+        <name>DTS2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- DTS - 3. Health --></label>
+        <name>DTS3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- DTS - 4. Agreements --></label>
+        <name>DTS4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- DTS - 5. References --></label>
+        <name>DTS5References</name>
+    </recordTypes><recordTypes>
+        <label><!-- ELM - 1. Questions --></label>
+        <name>ELM1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- ELM - 2. Experience --></label>
+        <name>ELM2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- ELM - 3. Health --></label>
+        <name>ELM3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- ELM - 4. Agreements --></label>
+        <name>ELM4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- ELM - 5. References --></label>
+        <name>ELM5References</name>
+    </recordTypes><recordTypes>
+        <label><!-- MB - 1. Questions --></label>
+        <name>MB1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- MB - 2. Experience --></label>
+        <name>MB2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- MB - 3. Health --></label>
+        <name>MB3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- MB - 4. Agreements --></label>
+        <name>MB4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- MB - 5. References --></label>
+        <name>MB5References</name>
+    </recordTypes><recordTypes>
+        <label><!-- Out/Sem - 1. Questions --></label>
+        <name>OutSem1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- Out/Sem - 2. Experience --></label>
+        <name>OutSem2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- Out/Sem - 3. Health --></label>
+        <name>OutSem3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- Out/Sem - 4. Agreements --></label>
+        <name>OutSem4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- Out/Sem - 5. References --></label>
+        <name>OutSem5References</name>
+    </recordTypes><recordTypes>
+        <label><!-- Second - 1. Questions --></label>
+        <name>Second1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- Second - 2. Experience --></label>
+        <name>Second2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- Second - 3. Health --></label>
+        <name>Second3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- Second - 4. Agreements --></label>
+        <name>Second4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- Second - 5. References --></label>
+        <name>Second5References</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff/MLD - 1. Questions --></label>
+        <name>StaffMLD1Questions</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff/MLD - 2. Experience --></label>
+        <name>StaffMLD2Experience</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff/MLD - 3. Health --></label>
+        <name>StaffMLD3Health</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff/MLD - 4. Agreements --></label>
+        <name>StaffMLD4Agreements</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff/MLD - 5. References --></label>
+        <name>StaffMLD5References</name>
+    </recordTypes><webLinks>
+        <label><!-- Conga_Composer_Application_Summary --></label>
+        <name>Conga_Composer_Application_Summary</name>
+    </webLinks><workflowTasks>
+        <description><!-- 3rd and last auto reminder sent to friend reference but still no response from reference. --></description>
+        <name>BP_EnContactFriendReferenceNoResponseSoFar</name>
+        <subject><!-- Contact Friend Reference, No response so far (EN) --></subject>
+    </workflowTasks><workflowTasks>
+        <description><!-- 3rd and last auto reminder sent to friend reference but still no response from reference. --></description>
+        <name>BP_KoContactFriendReferenceNoResponseSoFar</name>
+        <subject><!-- Contact Friend Reference, No response so far (KO) --></subject>
+    </workflowTasks><workflowTasks>
+        <description><!-- Check if application is complete and ready to start the approval process. --></description>
+        <name>Check_if_Application_is_Ready_for_Approval_Process</name>
+        <subject><!-- Check if Application is Ready for Approval Process --></subject>
+    </workflowTasks><workflowTasks>
+        <name>ContactSpiritualLeaderReferenceNoResponseSoFar</name>
+        <subject><!-- Contact Spiritual Leader Reference, No response so far --></subject>
+    </workflowTasks><workflowTasks>
+        <name>ContactTeacherEmployerReferenceNoResponseSoFar</name>
+        <subject><!-- Contact Teacher/Employer Reference, No response so far --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToFriendReference</name>
+        <subject><!-- Email Sent to Friend Reference --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToSpiritualLeaderReference</name>
+        <subject><!-- Email Sent to Spiritual Leader Reference --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToTeacherEmployer</name>
+        <subject><!-- Email Sent to Teacher/Employer --></subject>
+    </workflowTasks><workflowTasks>
+        <name>FriendReferenceSentReminder1stTime</name>
+        <subject><!-- Friend Reference Sent Reminder (1st Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>FriendReferenceSentReminder2ndTime</name>
+        <subject><!-- Friend Reference Sent Reminder (2nd Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <description><!-- 3rd and last reminder sent to friend reference --></description>
+        <name>FriendReferenceSentReminder3rdTime</name>
+        <subject><!-- Friend Reference Sent Reminder (3rd Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>SpiritualLeaderReferenceSentReminder1stTime</name>
+        <subject><!-- Spiritual Leader Reference Sent Reminder (1st Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>SpiritualLeaderReferenceSentReminder2ndTime</name>
+        <subject><!-- Spiritual Leader Reference Sent Reminder (2nd Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>SpiritualLeaderReferenceSentReminder3rdTime</name>
+        <subject><!-- Spiritual Leader Reference Sent Reminder (3rd Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>TeacherEmployerReferenceSentReminder1stTime</name>
+        <subject><!-- Teacher/Employer Reference Sent Reminder (1st Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>TeacherEmployerReferenceSentReminder2ndTime</name>
+        <subject><!-- Teacher/Employer Reference Sent Reminder (2nd Time) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>TeacherEmployerReferenceSentReminder3rdTime</name>
+        <subject><!-- Teacher/Employer Reference Sent Reminder (3rd Time) --></subject>
+    </workflowTasks></CustomObjectTranslation>

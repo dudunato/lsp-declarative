@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Visas and Permits</relationshipLabel>
+        <relationshipName>VisasandPermits</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ExpirationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>IssueDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Issue Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Visas and Permits</relationshipLabel>
+        <relationshipName>VisasAndPermits</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>StudentVisaDepartureFormSent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the date which the departure form was sent to "service du contrôle des habitants, case postale 5354, 1002 Lausanne"</inlineHelpText>
+        <label>Student Visa Departure form Sent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaAppliedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Applied Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaApprovedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Approved Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaArrivalFormSubmitted__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Yellow Form that goes to the city of Lausanne</inlineHelpText>
+        <label>Visa Arrival Form Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaPermitType__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa/Permit Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tourist (90 Days entry)</fullName>
+                    <default>false</default>
+                    <label>Tourist (90 Days entry)</label>
+                </value>
+                <value>
+                    <fullName>Tourist (applied for in home country)</fullName>
+                    <default>false</default>
+                    <label>Tourist (applied for in home country)</label>
+                </value>
+                <value>
+                    <fullName>Permit B - Student</fullName>
+                    <default>false</default>
+                    <label>Permit B - Student</label>
+                </value>
+                <value>
+                    <fullName>Permit B - Work</fullName>
+                    <default>false</default>
+                    <label>Permit B - Work</label>
+                </value>
+                <value>
+                    <fullName>Permit B - Spouse</fullName>
+                    <default>false</default>
+                    <label>Permit B - Spouse</label>
+                </value>
+                <value>
+                    <fullName>Swiss - Work</fullName>
+                    <default>false</default>
+                    <label>Swiss - Work</label>
+                </value>
+                <value>
+                    <fullName>Swiss</fullName>
+                    <default>false</default>
+                    <label>Swiss</label>
+                </value>
+                <value>
+                    <fullName>Permit C - Work</fullName>
+                    <default>false</default>
+                    <label>Permit C - Work</label>
+                </value>
+                <value>
+                    <fullName>Permit C - Spouse</fullName>
+                    <default>false</default>
+                    <label>Permit C - Spouse</label>
+                </value>
+                <value>
+                    <fullName>Permit L</fullName>
+                    <default>false</default>
+                    <label>Permit L</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>VisaReceivedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Received Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Applying</fullName>
+                    <default>true</default>
+                    <label>Not Applying</label>
+                </value>
+                <value>
+                    <fullName>Applying</fullName>
+                    <default>false</default>
+                    <label>Applying</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Renew</fullName>
+                    <default>false</default>
+                    <label>Renew</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>Visa_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter Visa Number</inlineHelpText>
+        <label>Visa Number</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>XrefId__c</fullName>
+        <externalId>true</externalId>
+        <label>XrefId</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Visas and Permits</label><nameField>
+        <label>Visa and Permits Name</label>
+        <type>Text</type>
+    </nameField><pluralLabel>Visas and Permits</pluralLabel><searchLayouts>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ExpirationDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>VisaPermitType__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>ExpirationDate__c</searchFilterFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ExpirationDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VisaPermitType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Notes__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><visibility>Public</visibility><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>ExpirationDate__c</columns>
+        <columns>IssueDate__c</columns>
+        <columns>Notes__c</columns>
+        <columns>VisaPermitType__c</columns>
+        <columns>Visa_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews></CustomObject>

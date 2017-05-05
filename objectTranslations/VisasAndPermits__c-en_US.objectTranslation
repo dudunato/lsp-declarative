@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Visas and Permits --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Expiration Date --></label>
+        <name>ExpirationDate__c</name>
+    </fields><fields>
+        <label><!-- Issue Date --></label>
+        <name>IssueDate__c</name>
+    </fields><fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields><fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Visas and Permits --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Enter the date which the departure form was sent to &quot;service du contrôle des habitants, case postale 5354, 1002 Lausanne&quot; --></help>
+        <label><!-- Student Visa Departure form Sent --></label>
+        <name>StudentVisaDepartureFormSent__c</name>
+    </fields><fields>
+        <label><!-- Visa Applied Date --></label>
+        <name>VisaAppliedDate__c</name>
+    </fields><fields>
+        <label><!-- Visa Approved Date --></label>
+        <name>VisaApprovedDate__c</name>
+    </fields><fields>
+        <help><!-- Yellow Form that goes to the city of Lausanne --></help>
+        <label><!-- Visa Arrival Form Submitted --></label>
+        <name>VisaArrivalFormSubmitted__c</name>
+    </fields><fields>
+        <label><!-- Visa/Permit Type --></label>
+        <name>VisaPermitType__c</name>
+        <picklistValues>
+            <masterLabel>Permit B - Spouse</masterLabel>
+            <translation><!-- Permit B - Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit B - Student</masterLabel>
+            <translation><!-- Permit B - Student --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit B - Work</masterLabel>
+            <translation><!-- Permit B - Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit C - Spouse</masterLabel>
+            <translation><!-- Permit C - Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit C - Work</masterLabel>
+            <translation><!-- Permit C - Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permit L</masterLabel>
+            <translation><!-- Permit L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swiss</masterLabel>
+            <translation><!-- Swiss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swiss - Work</masterLabel>
+            <translation><!-- Swiss - Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tourist (90 Days entry)</masterLabel>
+            <translation><!-- Tourist (90 Days entry) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tourist (applied for in home country)</masterLabel>
+            <translation><!-- Tourist (applied for in home country) --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Visa Received Date --></label>
+        <name>VisaReceivedDate__c</name>
+    </fields><fields>
+        <label><!-- Visa Status --></label>
+        <name>VisaStatus__c</name>
+        <picklistValues>
+            <masterLabel>Applying</masterLabel>
+            <translation><!-- Applying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applying</masterLabel>
+            <translation><!-- Not Applying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew</masterLabel>
+            <translation><!-- Renew --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Please enter Visa Number --></help>
+        <label><!-- Visa Number --></label>
+        <name>Visa_Number__c</name>
+    </fields><fields>
+        <label><!-- XrefId --></label>
+        <name>XrefId__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Visas and Permits</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Visas and Permits</value>
+    </caseValues><nameFieldLabel>Visa and Permits Name</nameFieldLabel><startsWith>Consonant</startsWith><layouts>
+        <layout>Visas and Permits Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

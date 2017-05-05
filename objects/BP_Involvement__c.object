@@ -1,0 +1,2653 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><compactLayouts>
+        <fullName>BP_InvolvementStaffLayout</fullName>
+        <fields>Name</fields>
+        <fields>Contact__c</fields>
+        <fields>ContactEmailAutoUpdate__c</fields>
+        <fields>Team__c</fields>
+        <fields>PresentRole__c</fields>
+        <fields>Status__c</fields>
+        <label>Involvement Staff Layout</label>
+    </compactLayouts><compactLayouts>
+        <fullName>BP_InvolvementStudentLayout</fullName>
+        <fields>Name</fields>
+        <fields>Status__c</fields>
+        <fields>CalculatedCourseCode__c</fields>
+        <fields>Contact__c</fields>
+        <fields>RoomNumber__c</fields>
+        <label>Involvement Student Layout</label>
+    </compactLayouts><fields>
+        <fullName>AFPEmailSent__c</fullName>
+        <externalId>false</externalId>
+        <label>AFP Email Sent</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>ApplicationP1Completed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Application__r.P1Completed__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Application Submitted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>ApplicationP2Completed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Application__r.P2Completed__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Application P2 Completed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>ApplicationStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Application__r.Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Application Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Application__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <referenceTo>BP_Application__c</referenceTo>
+        <relationshipLabel>Involvement</relationshipLabel>
+        <relationshipName>BP_Involvement</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ApproverAdmissions__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver - Admissions</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>InvolvementApproverAdmissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ApproverBaseLeadership__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver - Base Leadership</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>InvolvementApproverBaseLeadership</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ApproverSchoolLeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver - School Leader</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>InvolvementApproverSchoolLeader</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ArrivalAirline__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Airline</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ArrivalAirportStationOther__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Airport/Station Other</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ArrivalAirportStation__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Airport/Station</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Geneva (GVA)</fullName>
+                    <default>false</default>
+                    <label>Geneva (GVA)</label>
+                </value>
+                <value>
+                    <fullName>Lausanne Train Station</fullName>
+                    <default>false</default>
+                    <label>Lausanne Train Station</label>
+                </value>
+                <value>
+                    <fullName>Zurich (ZHR)</fullName>
+                    <default>false</default>
+                    <label>Zurich (ZHR)</label>
+                </value>
+                <value>
+                    <fullName>Basel (BSL)</fullName>
+                    <default>false</default>
+                    <label>Basel (BSL)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ArrivalDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>ArrivalFlightDetailsGoogle__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK("https://www.google.com?#q=Flight: " &amp; text(day(ArrivalDate__c)) &amp; "/" &amp; text(month(ArrivalDate__c)) &amp; "/" &amp; text(year(ArrivalDate__c)) &amp; " " &amp; ArrivalAirline__c &amp; " " &amp; ArrivalFlightNumber__c, "Search for Flight Information", "_blank")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Arrival Flight Details (Google)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ArrivalFlightNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Flight Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ArrivalMode__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Mode</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Plane</fullName>
+                    <default>false</default>
+                    <label>Plane</label>
+                </value>
+                <value>
+                    <fullName>Train</fullName>
+                    <default>false</default>
+                    <label>Train</label>
+                </value>
+                <value>
+                    <fullName>Car</fullName>
+                    <default>false</default>
+                    <label>Car</label>
+                </value>
+                <value>
+                    <fullName>Personal Transportation</fullName>
+                    <default>false</default>
+                    <label>Personal Transportation</label>
+                </value>
+                <value>
+                    <fullName>Already Here</fullName>
+                    <default>false</default>
+                    <label>Already Here</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ArrivalNotes__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Notes</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>ArrivalStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Will Call With Time</fullName>
+                    <default>false</default>
+                    <label>Will Call With Time</label>
+                </value>
+                <value>
+                    <fullName>Already Here - No Pick Up Needed</fullName>
+                    <default>false</default>
+                    <label>Already Here - No Pick Up Needed</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ArrivalTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Arrival Time</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>CalculatedCourseCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.CalculatedCourseCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Calculated Course Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ContactEmailAutoUpdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Email (Auto Update)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Involvement</relationshipLabel>
+        <relationshipName>BP_Involvement</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>CourseArrivalDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.ArrivalDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Arrival Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>CourseDepartureDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.DepartureDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Departure Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>CourseEndDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.EndDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>CourseEvent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Course/Event</label>
+        <referenceTo>BP_CourseEventOutreach__c</referenceTo>
+        <relationshipLabel>Involvement (Course/Event)</relationshipLabel>
+        <relationshipName>InvolvementCourseEvent</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>CourseOutreachRecordType__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course/Outreach Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>CourseStartDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.StartDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Course Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>DepositPaid__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Paid</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Deposit__c</fullName>
+        <externalId>false</externalId>
+        <formula>CourseEvent__r.Deposit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deposit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>FIP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Finances in Process. Person does not have full lecture phase fees.</inlineHelpText>
+        <label>FIP</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>FriendReferenceStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Application__r.FriendReferenceStatus__c)</formula>
+        <label>Friend Reference Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>HousingPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>Housing Plan</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Canaan Apt.</fullName>
+                    <default>false</default>
+                    <label>Canaan Apt.</label>
+                </value>
+                <value>
+                    <fullName>Canaan House Shared</fullName>
+                    <default>false</default>
+                    <label>Canaan House Shared</label>
+                </value>
+                <value>
+                    <fullName>Canaan House Single</fullName>
+                    <default>false</default>
+                    <label>Canaan House Single</label>
+                </value>
+                <value>
+                    <fullName>Chalet Shared</fullName>
+                    <default>false</default>
+                    <label>Chalet Shared</label>
+                </value>
+                <value>
+                    <fullName>Chalet Single</fullName>
+                    <default>false</default>
+                    <label>Chalet Single</label>
+                </value>
+                <value>
+                    <fullName>Rte de Berne Apt. 23</fullName>
+                    <default>false</default>
+                    <label>Rte de Berne Apt. 23</label>
+                </value>
+                <value>
+                    <fullName>Rte de Berne Apt. 24</fullName>
+                    <default>false</default>
+                    <label>Rte de Berne Apt. 24</label>
+                </value>
+                <value>
+                    <fullName>CM A</fullName>
+                    <default>false</default>
+                    <label>CM A</label>
+                </value>
+                <value>
+                    <fullName>CM B</fullName>
+                    <default>false</default>
+                    <label>CM B</label>
+                </value>
+                <value>
+                    <fullName>CM C</fullName>
+                    <default>false</default>
+                    <label>CM C</label>
+                </value>
+                <value>
+                    <fullName>Cojonnex Apt.</fullName>
+                    <default>false</default>
+                    <label>Cojonnex Apt.</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Outreach</fullName>
+                    <default>false</default>
+                    <label>Outreach</label>
+                </value>
+                <value>
+                    <fullName>Private Apt.</fullName>
+                    <default>false</default>
+                    <label>Private Apt.</label>
+                </value>
+                <value>
+                    <fullName>PTT Apartment</fullName>
+                    <default>false</default>
+                    <label>PTT Apartment</label>
+                </value>
+                <value>
+                    <fullName>Vuillette Apt.</fullName>
+                    <default>false</default>
+                    <label>Vuillette Apt.</label>
+                </value>
+                <value>
+                    <fullName>Vuillette Studio</fullName>
+                    <default>false</default>
+                    <label>Vuillette Studio</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>LatestSalaryAmountAutoUpdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Latest Salary Amount (Auto Update)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>LatestSalaryMontAutoUpdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Latest Salary Month (Auto Update)</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>LatestSalaryYearAutoUpdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Latest Salary Year (Auto Update)</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>LausanneMobilePhone__c</fullName>
+        <externalId>false</externalId>
+        <label>Lausanne Mobile Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields><fields>
+        <fullName>LeaderReferenceStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Application__r.LeaderReferenceStatus__c)</formula>
+        <label>Leader Reference Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ManuallySendSalaryDeclaration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If you check this box the contact attached to this involvement will immediately get the salary declaration email</inlineHelpText>
+        <label>Manually Send Salary Declaration</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>MealPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>Meal Plan</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Meals</fullName>
+                    <default>false</default>
+                    <label>No Meals</label>
+                </value>
+                <value>
+                    <fullName>Plan A - all meals</fullName>
+                    <default>false</default>
+                    <label>Plan A - all meals</label>
+                </value>
+                <value>
+                    <fullName>Plan B - all meals weekdays &amp; breakfast weekends</fullName>
+                    <default>false</default>
+                    <label>Plan B - all meals weekdays &amp; breakfast weekends</label>
+                </value>
+                <value>
+                    <fullName>Plan C - lunch &amp; dinner weekdays</fullName>
+                    <default>false</default>
+                    <label>Plan C - lunch &amp; dinner weekdays</label>
+                </value>
+                <value>
+                    <fullName>Plan D - lunch weekdays</fullName>
+                    <default>false</default>
+                    <label>Plan D - lunch weekdays</label>
+                </value>
+                <value>
+                    <fullName>Plan E - lunch and/or dinner on same day/days every week</fullName>
+                    <default>false</default>
+                    <label>Plan E - lunch and/or dinner on same day/days every week</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>MonthlySalaryDeclarationSendDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Monthly Salary Declaration Send Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>OldOpportunityId__c</fullName>
+        <externalId>true</externalId>
+        <label>Old Opportunity Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>OnlineApplicationLanguage__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.OnlineApplicationLanguage__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Online Application Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Outreach__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Outreach</label>
+        <referenceTo>BP_CourseEventOutreach__c</referenceTo>
+        <relationshipLabel>Involvement (Outreach)</relationshipLabel>
+        <relationshipName>InvolvementOutreach</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>PersonalDetails__c</fullName>
+        <externalId>false</externalId>
+        <formula>"Nationality: " + Contact__r.NationalityPrimary__r.Name + " | Age: " +  TEXT(Contact__r.Age__c) + " | Gender: " + TEXT(Contact__r.Gender__c) + " |  Marital Status: " +  TEXT(Contact__r.Marital_Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Personal Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>PickUpDateAndTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Pick Up Date and Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields><fields>
+        <fullName>PickUpLocation__c</fullName>
+        <externalId>false</externalId>
+        <label>Pick Up Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lausanne Train Station</fullName>
+                    <default>false</default>
+                    <label>Lausanne Train Station</label>
+                </value>
+                <value>
+                    <fullName>Geneva Airport (GVA)</fullName>
+                    <default>false</default>
+                    <label>Geneva Airport (GVA)</label>
+                </value>
+                <value>
+                    <fullName>Lausanne Guesthouse</fullName>
+                    <default>false</default>
+                    <label>Lausanne Guesthouse</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>PresentRole__c</fullName>
+        <externalId>false</externalId>
+        <label>Present Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Q1Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Q1 Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Q1Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Q1 Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Community Life</fullName>
+                    <default>false</default>
+                    <label>Community Life</label>
+                </value>
+                <value>
+                    <fullName>Compassion</fullName>
+                    <default>false</default>
+                    <label>Compassion</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>GENESIS</fullName>
+                    <default>false</default>
+                    <label>GENESIS</label>
+                </value>
+                <value>
+                    <fullName>Mission-Builder</fullName>
+                    <default>false</default>
+                    <label>Mission-Builder</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Personnel</fullName>
+                    <default>false</default>
+                    <label>Personnel</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>School Staff</fullName>
+                    <default>false</default>
+                    <label>School Staff</label>
+                </value>
+                <value>
+                    <fullName>Short term Staff</fullName>
+                    <default>false</default>
+                    <label>Short term Staff</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>Q2Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Q2 Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Q2Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Q2 Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Community Life</fullName>
+                    <default>false</default>
+                    <label>Community Life</label>
+                </value>
+                <value>
+                    <fullName>Compassion</fullName>
+                    <default>false</default>
+                    <label>Compassion</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>GENESIS</fullName>
+                    <default>false</default>
+                    <label>GENESIS</label>
+                </value>
+                <value>
+                    <fullName>Mission-Builder</fullName>
+                    <default>false</default>
+                    <label>Mission-Builder</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Personnel</fullName>
+                    <default>false</default>
+                    <label>Personnel</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>School Staff</fullName>
+                    <default>false</default>
+                    <label>School Staff</label>
+                </value>
+                <value>
+                    <fullName>Short term Staff</fullName>
+                    <default>false</default>
+                    <label>Short term Staff</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>Q3Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Q3 Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Q3Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Q3 Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Community Life</fullName>
+                    <default>false</default>
+                    <label>Community Life</label>
+                </value>
+                <value>
+                    <fullName>Compassion</fullName>
+                    <default>false</default>
+                    <label>Compassion</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>GENESIS</fullName>
+                    <default>false</default>
+                    <label>GENESIS</label>
+                </value>
+                <value>
+                    <fullName>Mission-Builder</fullName>
+                    <default>false</default>
+                    <label>Mission-Builder</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Personnel</fullName>
+                    <default>false</default>
+                    <label>Personnel</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>School Staff</fullName>
+                    <default>false</default>
+                    <label>School Staff</label>
+                </value>
+                <value>
+                    <fullName>Short term Staff</fullName>
+                    <default>false</default>
+                    <label>Short term Staff</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>Q4Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Q4 Role</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Q4Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Q4 Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Community Life</fullName>
+                    <default>false</default>
+                    <label>Community Life</label>
+                </value>
+                <value>
+                    <fullName>Compassion</fullName>
+                    <default>false</default>
+                    <label>Compassion</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>GENESIS</fullName>
+                    <default>false</default>
+                    <label>GENESIS</label>
+                </value>
+                <value>
+                    <fullName>Mission-Builder</fullName>
+                    <default>false</default>
+                    <label>Mission-Builder</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Personnel</fullName>
+                    <default>false</default>
+                    <label>Personnel</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>School Staff</fullName>
+                    <default>false</default>
+                    <label>School Staff</label>
+                </value>
+                <value>
+                    <fullName>Short term Staff</fullName>
+                    <default>false</default>
+                    <label>Short term Staff</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>RegistrationDayConfirmation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Registration Day Confirmation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>RoomNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Room Number</label>
+        <length>55</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>SeminarLetterSent__c</fullName>
+        <externalId>false</externalId>
+        <label>Seminar Letter Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>StaffEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Staff End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>StaffStartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Staff Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Withdrawn</label>
+                </value>
+                <value>
+                    <fullName>Incomplete</fullName>
+                    <default>true</default>
+                    <label>Incomplete</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>FIP</fullName>
+                    <default>false</default>
+                    <label>FIP</label>
+                </value>
+                <value>
+                    <fullName>AFP</fullName>
+                    <default>false</default>
+                    <label>AFP</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>7a - Current Staff</fullName>
+                    <default>false</default>
+                    <label>7a - Current Staff</label>
+                </value>
+                <value>
+                    <fullName>7c - Current Mission Builder</fullName>
+                    <default>false</default>
+                    <label>7c - Current Mission Builder</label>
+                </value>
+                <value>
+                    <fullName>7d - Traveling Staff</fullName>
+                    <default>false</default>
+                    <label>7d - Traveling Staff</label>
+                </value>
+                <value>
+                    <fullName>7e - Attending School</fullName>
+                    <default>false</default>
+                    <label>7e - Attending School</label>
+                </value>
+                <value>
+                    <fullName>7f - On Outreach</fullName>
+                    <default>false</default>
+                    <label>7f - On Outreach</label>
+                </value>
+                <value>
+                    <fullName>8a - Staff Child</fullName>
+                    <default>false</default>
+                    <label>8a - Staff Child</label>
+                </value>
+                <value>
+                    <fullName>9a - Past Staff</fullName>
+                    <default>false</default>
+                    <label>9a - Past Staff</label>
+                </value>
+                <value>
+                    <fullName>9b - Past Mission Builder</fullName>
+                    <default>false</default>
+                    <label>9b - Past Mission Builder</label>
+                </value>
+                <value>
+                    <fullName>9c - Past Staff Child</fullName>
+                    <default>false</default>
+                    <label>9c - Past Staff Child</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>TeacherEmployerReferenceStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Application__r.TeacherEmpRefStatus__c)</formula>
+        <label>Teacher/Employer Reference Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>Communications</fullName>
+                    <default>false</default>
+                    <label>Communications</label>
+                </value>
+                <value>
+                    <fullName>Community Life</fullName>
+                    <default>false</default>
+                    <label>Community Life</label>
+                </value>
+                <value>
+                    <fullName>Compassion</fullName>
+                    <default>false</default>
+                    <label>Compassion</label>
+                </value>
+                <value>
+                    <fullName>GENESIS</fullName>
+                    <default>false</default>
+                    <label>GENESIS</label>
+                </value>
+                <value>
+                    <fullName>Mission-Builder</fullName>
+                    <default>false</default>
+                    <label>Mission-Builder</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>Personnel</fullName>
+                    <default>false</default>
+                    <label>Personnel</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>School Staff</fullName>
+                    <default>false</default>
+                    <label>School Staff</label>
+                </value>
+                <value>
+                    <fullName>Short term Staff</fullName>
+                    <default>false</default>
+                    <label>Short term Staff</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>TrackDegree__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Track / Degree</label>
+        <referenceTo>BP_TracksDegrees__c</referenceTo>
+        <relationshipLabel>Involvement</relationshipLabel>
+        <relationshipName>Involvement</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>VisaExpiryDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>VisasAndPermits__r.ExpirationDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visa Expiry Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaInfoSent__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Info Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaLetterSentToEmbassy__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Letter Sent to Embassy</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>VisaStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(VisasAndPermits__r.VisaStatus__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visa Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>VisaTypeAutoUpdate__c</fullName>
+        <externalId>false</externalId>
+        <label>Visa Type (Auto Update)</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>VisaType__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(VisasAndPermits__r.VisaPermitType__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visa Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>VisasAndPermits__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Visas and Permits</label>
+        <referenceTo>VisasAndPermits__c</referenceTo>
+        <relationshipLabel>Involvement</relationshipLabel>
+        <relationshipName>Involvement</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>XrefId__c</fullName>
+        <externalId>true</externalId>
+        <label>XrefId</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>true</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Replacement for Oportunities</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Involvement</label><nameField>
+        <label>Involvement</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Involvement</pluralLabel><recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><visibility>Public</visibility><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>Application__c</columns>
+        <columns>CalculatedCourseCode__c</columns>
+        <columns>ArrivalStatus__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><listViews>
+        <fullName>Current_Students</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>CourseEvent__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Accepted</value>
+        </filters>
+        <filters>
+            <field>CourseEvent__c</field>
+            <operation>contains</operation>
+            <value>2017Q2</value>
+        </filters>
+        <label>Current Students</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>YWAMLausanneStaffCurrent</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>PresentRole__c</columns>
+        <columns>MealPlan__c</columns>
+        <columns>HousingPlan__c</columns>
+        <columns>LausanneMobilePhone__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>7a - Current Staff,7c - Current Mission Builder,7e - Attending School</value>
+        </filters>
+        <label>YWAM Lausanne Staff - Current</label>
+        <language>en_US</language>
+    </listViews><recordTypes>
+        <fullName>Staff</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>BP_InvolvementStaffLayout</compactLayoutAssignment>
+        <label>Staff</label>
+        <picklistValues>
+            <picklist>ArrivalAirportStation__c</picklist>
+            <values>
+                <fullName>Basel %28BSL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geneva %28GVA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Train Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zurich %28ZHR%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ArrivalMode__c</picklist>
+            <values>
+                <fullName>Already Here</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Train</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ArrivalStatus__c</picklist>
+            <values>
+                <fullName>Already Here - No Pick Up Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Call With Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HousingPlan__c</picklist>
+            <values>
+                <fullName>CM A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CM B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CM C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan House Shared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan House Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chalet Shared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chalet Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cojonnex Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTT Apartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rte de Berne Apt%2E 23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rte de Berne Apt%2E 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vuillette Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vuillette Studio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MealPlan__c</picklist>
+            <values>
+                <fullName>No Meals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan A - all meals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan B - all meals weekdays %26 breakfast weekends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan C - lunch %26 dinner weekdays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan D - lunch weekdays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan E - lunch and%2For dinner on same day%2Fdays every week</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PickUpLocation__c</picklist>
+            <values>
+                <fullName>Geneva Airport %28GVA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Guesthouse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Train Station</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q1Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q2Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q3Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q4Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>7a - Current Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7c - Current Mission Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7d - Traveling Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7e - Attending School</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7f - On Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8a - Staff Child</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9a - Past Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9b - Past Mission Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9c - Past Staff Child</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incomplete</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Student</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>BP_InvolvementStudentLayout</compactLayoutAssignment>
+        <label>Student</label>
+        <picklistValues>
+            <picklist>ArrivalAirportStation__c</picklist>
+            <values>
+                <fullName>Basel %28BSL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geneva %28GVA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Train Station</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zurich %28ZHR%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ArrivalMode__c</picklist>
+            <values>
+                <fullName>Already Here</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Train</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ArrivalStatus__c</picklist>
+            <values>
+                <fullName>Already Here - No Pick Up Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Call With Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HousingPlan__c</picklist>
+            <values>
+                <fullName>CM A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CM B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CM C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan House Shared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canaan House Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chalet Shared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chalet Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cojonnex Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outreach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTT Apartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rte de Berne Apt%2E 23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rte de Berne Apt%2E 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vuillette Apt%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vuillette Studio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MealPlan__c</picklist>
+            <values>
+                <fullName>No Meals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan A - all meals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan B - all meals weekdays %26 breakfast weekends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan C - lunch %26 dinner weekdays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan D - lunch weekdays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan E - lunch and%2For dinner on same day%2Fdays every week</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PickUpLocation__c</picklist>
+            <values>
+                <fullName>Geneva Airport %28GVA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Guesthouse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lausanne Train Station</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q1Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q2Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q3Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Q4Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>AFP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incomplete</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Life</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compassion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GENESIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mission-Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>School Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Short term Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><webLinks>
+        <fullName>Conga_Composer_Application_Summary</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://apxtconga4.na8.visual.force.com/a1EC0000007NJQeMAO.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Application Summary</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://composer.congamerge.com?SolMgr=1
+&amp;sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_290}
+&amp;Id={!BP_Involvement__c.Id}</url>
+        <width>900</width>
+    </webLinks><webLinks>
+        <fullName>Conga_Composer_Seminar_Letter</fullName>
+        <availability>online</availability>
+        <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://apxtconga4.na8.visual.force.com/a1EC0000007EmqWMAS
+22-Aug-2016 03:05:40 PM</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Seminar Letter</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://composer.congamerge.com?SolMgr=1
+&amp;sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_290}
+&amp;Id={!BP_Involvement__c.Id}
+
+&amp;QueryId=[SeminarLetterInfoQ]a18C0000003XPOe
+
+&amp;TemplateId=a1GC000000CgJuO
+
+&amp;OFN=Seminar+Letter+-+{!BP_Involvement__c.Contact__c}
+&amp;DS7=3
+&amp;UF0=1
+&amp;MFTS0=SeminarLetterSent__c
+&amp;MFTSValue0=TODAY</url>
+        <width>900</width>
+    </webLinks><webLinks>
+        <fullName>Conga_Composer_Visa_Letter</fullName>
+        <availability>online</availability>
+        <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://apxtconga4.na8.visual.force.com/a1EC0000007EGI5MAO
+12-Sep-2016 11:05:52 AM</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Visa Letter</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://composer.congamerge.com?SolMgr=1
+&amp;sessionId={!API.Session_ID}
+&amp;serverUrl={!API.Partner_Server_URL_290}
+&amp;Id={!BP_Involvement__c.Id}
+
+&amp;QueryId=[VisaLetterInfoQ]a18C0000003XPOe
+
+&amp;TemplateId=a1GC000000CgHkS
+
+&amp;OFN=Visa+Letter+-+{!BP_Involvement__c.Contact__c}
+&amp;DS7=3
+&amp;UF0=1
+&amp;MFTS0=VisaLetterSentToEmbassy__c
+&amp;MFTSValue0=TODAY
+&amp;MFTS1=VisaInfoSent__c
+&amp;MFTSValue1=TODAY</url>
+        <width>900</width>
+    </webLinks></CustomObject>

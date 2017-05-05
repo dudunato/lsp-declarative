@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>DefaultStripeCurrency__c</fullName>
+        <externalId>false</externalId>
+        <label>Default Stripe Currency</label>
+        <length>5</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>IsTriggerDisabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Trigger Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>StripeAPIURL__c</fullName>
+        <description>Stripe API URL</description>
+        <externalId>false</externalId>
+        <label>Stripe API URL</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>StripePrivateKey__c</fullName>
+        <externalId>false</externalId>
+        <label>Stripe Private Key</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>Hierarchy</customSettingsType><description>All settings for the Base Package</description><enableFeeds>false</enableFeeds><label>BP Settings</label><visibility>Protected</visibility></CustomObject>

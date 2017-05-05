@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <relationshipLabel><!-- Outreach Countries --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Outreach Team --></label>
+        <name>OutreachTeam__c</name>
+        <relationshipLabel><!-- Outreach Countries --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Outreach Country</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Outreach Countries</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Outreach Country Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

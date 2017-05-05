@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Financial Agreements --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Date of talk/agreement, payment, write off... --></help>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label><!-- Explain Other Expense --></label>
+        <name>ExplainOtherExpense__c</name>
+    </fields><fields>
+        <label><!-- Involvement --></label>
+        <name>Involvement__c</name>
+        <relationshipLabel><!-- Financial Agreements --></relationshipLabel>
+    </fields><fields>
+        <label><!-- New Food Price (Monthly) --></label>
+        <name>NewFoodPriceMonthly__c</name>
+    </fields><fields>
+        <label><!-- New Housing Price (Monthly) --></label>
+        <name>NewHousingPriceMonthly__c</name>
+    </fields><fields>
+        <label><!-- New Tuition Price --></label>
+        <name>NewTuitionPrice__c</name>
+    </fields><fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields><fields>
+        <label><!-- Other Expense --></label>
+        <name>OtherExpense__c</name>
+    </fields><fields>
+        <label><!-- Ramp End Date --></label>
+        <name>RampEndDate__c</name>
+    </fields><fields>
+        <label><!-- Ramp Start Date --></label>
+        <name>RampStartDate__c</name>
+    </fields><fields>
+        <label><!-- Who had Talk --></label>
+        <name>WhoHadTalk__c</name>
+        <relationshipLabel><!-- Financial Agreements --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Financial Agreement</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Financial Agreements</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Payment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Program</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Staff</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Write Offs</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Payment --></label>
+        <name>Payment</name>
+    </recordTypes><recordTypes>
+        <label><!-- Program --></label>
+        <name>Program</name>
+    </recordTypes><recordTypes>
+        <label><!-- Staff --></label>
+        <name>Staff</name>
+    </recordTypes><recordTypes>
+        <label><!-- Write Off --></label>
+        <name>WriteOff</name>
+    </recordTypes></CustomObjectTranslation>

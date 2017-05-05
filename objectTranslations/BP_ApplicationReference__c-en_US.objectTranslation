@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Ability to Follow --></label>
+        <name>AbilityToFollow__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Ability to Work With Others --></label>
+        <name>AbilitytoWorkWithOthers__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Application --></label>
+        <name>Application__c</name>
+        <relationshipLabel><!-- Application References --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Concern For Others --></label>
+        <name>ConcernForOthers__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Contact (Applicant) --></label>
+        <name>ContactApplicant__c</name>
+        <relationshipLabel><!-- Application References --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Contact Referee Email --></label>
+        <name>ContactRefereeEmail__c</name>
+    </fields><fields>
+        <label><!-- Contact (Referee) --></label>
+        <name>ContactReferee__c</name>
+        <relationshipLabel><!-- Application References (Referee) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Date Submitted --></label>
+        <name>DateSubmitted__c</name>
+    </fields><fields>
+        <label><!-- Emotional Stability --></label>
+        <name>EmotionalStability__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Please comment briefly on the applicant&apos;s family background. --></help>
+        <label><!-- Family Background --></label>
+        <name>FamilyBackground__c</name>
+    </fields><fields>
+        <label><!-- Financial Responsibility --></label>
+        <name>FinancialResponsibility__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Flexibility/Openness to Change --></label>
+        <name>FlexibilityOpennesstoChange__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Where do you think the applicant needs further character growth? --></help>
+        <label><!-- Further Character Growth --></label>
+        <name>FurtherCharacterGrowth__c</name>
+    </fields><fields>
+        <help><!-- Is there any further information that would help us process the application? --></help>
+        <label><!-- Further Information --></label>
+        <name>Further_Information__c</name>
+    </fields><fields>
+        <label><!-- General Comments --></label>
+        <name>GeneralComments__c</name>
+    </fields><fields>
+        <label><!-- Grateful Spirit --></label>
+        <name>GratefulSpirit__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Question: Does the applicant display high moral standards? --></help>
+        <label><!-- High Moral Standards --></label>
+        <name>High_Moral_Standards__c</name>
+    </fields><fields>
+        <label><!-- Industrial/Hard Worker --></label>
+        <name>IndustrialHardWorker__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Initiative/Self Starter --></label>
+        <name>InitiativeSelfStarter__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Leadership Ability --></label>
+        <name>LeadershipAbility__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- How long have you known the applicant? --></help>
+        <label><!-- Length you’ve known the applicant --></label>
+        <name>LengthYouHaveKnownTheApplicant__c</name>
+    </fields><fields>
+        <label><!-- Personal Appearance --></label>
+        <name>PersonalAppearance__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Positive Attitude --></label>
+        <name>PositiveAttitude__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- How would you describe the applicant&apos;s present relationship with God? --></help>
+        <label><!-- Present Relationship With God --></label>
+        <name>PresentRelationshipWithGod__c</name>
+    </fields><fields>
+        <label><!-- Reference Language --></label>
+        <name>ReferenceLanguage__c</name>
+    </fields><fields>
+        <help><!-- How would you describe the applicants relational skills with others? --></help>
+        <label><!-- Relational Skills --></label>
+        <name>RelationshipswithOthers__c</name>
+    </fields><fields>
+        <label><!-- Reliability --></label>
+        <name>Reliability__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Response to Authority Figures --></label>
+        <name>ResponsetoAuthorityFigures__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Response to Pressure/Stress --></label>
+        <name>ResponsetoPressureStress__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Servant Heart --></label>
+        <name>ServantHeart__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- What skills, talents and strengths have you observed? --></help>
+        <label><!-- Skills, Talents and Strengths --></label>
+        <name>SkillsTalentsandStrengths__c</name>
+    </fields><fields>
+        <label><!-- Teachable Spirit --></label>
+        <name>TeachableSpirit__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Type of Reference --></label>
+        <name>TypeOfReference__c</name>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation><!-- Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spiritual Leader</masterLabel>
+            <translation><!-- Spiritual Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teacher-Employer</masterLabel>
+            <translation><!-- Teacher-Employer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YWAM Leader</masterLabel>
+            <translation><!-- YWAM Leader --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- What type of environment does the student function best in? --></help>
+        <label><!-- Type of Environment --></label>
+        <name>TypeofEnvironment__c</name>
+    </fields><fields>
+        <label><!-- Willingness to Be Accountable --></label>
+        <name>WillingnesstoBeAccountable__c</name>
+        <picklistValues>
+            <masterLabel>Above Average</masterLabel>
+            <translation><!-- Above Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Average</masterLabel>
+            <translation><!-- Below Average --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Would You Choose to Work With Them --></label>
+        <name>WouldYouChoosetoWorkWithThem__c</name>
+    </fields><fields>
+        <help><!-- Would you recommend this applicant for acceptance at YWAM Lausanne? --></help>
+        <label><!-- Would You Recommend to Accept Them --></label>
+        <name>WouldYouRecommendtoAcceptThem__c</name>
+    </fields><fields>
+        <label><!-- XrefId --></label>
+        <name>XrefId__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Application Reference</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Application References</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Employer/Teacher/Friend</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Evaluation --></label>
+            <section>Evaluation</section>
+        </sections>
+        <sections>
+            <label><!-- Questions --></label>
+            <section>Questions</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Details --></label>
+            <section>Reference Details</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Reference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Profile Answers --></label>
+            <section>Personal Profile Answers</section>
+        </sections>
+    </layouts><layouts>
+        <layout>YWAMLeader/Pastor/S.Leader</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Evaluation --></label>
+            <section>Evaluation</section>
+        </sections>
+        <sections>
+            <label><!-- Questions --></label>
+            <section>Questions</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Details --></label>
+            <section>Reference Details</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Employer/Teacher/Friend --></label>
+        <name>EmployerTeacherFriend</name>
+    </recordTypes><recordTypes>
+        <label><!-- YWAMLeader/Pastor/S.Leader --></label>
+        <name>YWAMLeaderPastorSLeader</name>
+    </recordTypes><workflowTasks>
+        <description><!-- Contact student to see if they can supply contact details for another reference. This referee has not completed the reference form. --></description>
+        <name>Contact_Student_Referee</name>
+        <subject><!-- Referee has not completed reference, contact student --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToReferee</name>
+        <subject><!-- Email Sent to Referee (1st) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToReferee2nd</name>
+        <subject><!-- Email Sent to Referee (2nd) --></subject>
+    </workflowTasks><workflowTasks>
+        <name>EmailSentToReferee3rd</name>
+        <subject><!-- Email Sent to Referee (3rd) --></subject>
+    </workflowTasks></CustomObjectTranslation>

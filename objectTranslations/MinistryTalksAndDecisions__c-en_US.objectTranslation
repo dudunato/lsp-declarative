@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- This can include more details on how you came to the decision or discipleship points or other senses/impressions from the talk. --></help>
+        <label><!-- Comments (Internal for Leadership) --></label>
+        <name>Comments__c</name>
+    </fields><fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Ministry Talks &amp; Decisions --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Date of Talk --></label>
+        <name>DateOfTalk__c</name>
+    </fields><fields>
+        <help><!-- Simply the facts of the decision --></help>
+        <label><!-- Decision --></label>
+        <name>Decision__c</name>
+    </fields><fields>
+        <label><!-- Involvement --></label>
+        <name>Involvement__c</name>
+        <relationshipLabel><!-- Ministry Talks &amp; Decisions --></relationshipLabel>
+    </fields><fields>
+        <help><!-- If a staff member that  does not have a salesforce user had the talk then write their name here --></help>
+        <label><!-- Who had Talk (Non SF User) --></label>
+        <name>WhoHadTalkNonSFUser__c</name>
+    </fields><fields>
+        <label><!-- Who had Talk --></label>
+        <name>WhoHadTalk__c</name>
+        <relationshipLabel><!-- Ministry Talks &amp; Decisions --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Ministry Talks &amp; Decisions</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Ministry Talks &amp; Decisions</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Ministry Talks &amp; Decisions Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

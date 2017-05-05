@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Whichever option you select here will determine which page layout that the student applying for the school/Outreach will use --></help>
+        <label><!-- Application Type --></label>
+        <name>ApplicationType__c</name>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation><!-- 2nd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DTS</masterLabel>
+            <translation><!-- DTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELM</masterLabel>
+            <translation><!-- ELM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLD</masterLabel>
+            <translation><!-- MLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUT</masterLabel>
+            <translation><!-- OUT --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Approver - Admissions (English) --></label>
+        <name>ApproverAdmissionsEnglish__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches (Approver - Admissions (English)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Approver - Admissions (Korean) --></label>
+        <name>ApproverAdmissionsKorean__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches (Approver - Admissions (Korean)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Approver - Base Leadership (English) --></label>
+        <name>ApproverBaseLeadershipEnglish__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches (Approver - Base Leadership (English)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Approver - Base Leadership (Korean) --></label>
+        <name>ApproverBaseLeadershipKorean__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches (Approver - Base Leadership (Korean)) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Approver - School Leader --></label>
+        <name>ApproverSchoolLeader__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches (Approver - School Leader) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Arrival Date --></label>
+        <name>ArrivalDate__c</name>
+    </fields><fields>
+        <label><!-- Calculated Course Code --></label>
+        <name>CalculatedCourseCode__c</name>
+    </fields><fields>
+        <label><!-- Canceled --></label>
+        <name>Canceled__c</name>
+    </fields><fields>
+        <help><!-- Total cost, including deposit --></help>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields><fields>
+        <label><!-- Course Code - Acronym --></label>
+        <name>CourseCodeAcronym__c</name>
+        <picklistValues>
+            <masterLabel>APC</masterLabel>
+            <translation><!-- APC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCC</masterLabel>
+            <translation><!-- BCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLS</masterLabel>
+            <translation><!-- BLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR</masterLabel>
+            <translation><!-- CAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBVM</masterLabel>
+            <translation><!-- CBVM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDS</masterLabel>
+            <translation><!-- CDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDTS</masterLabel>
+            <translation><!-- CDTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLS</masterLabel>
+            <translation><!-- CLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPBCC</masterLabel>
+            <translation><!-- DPBCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPDTS</masterLabel>
+            <translation><!-- DPDTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPFCMI</masterLabel>
+            <translation><!-- DPFCMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPFCMII</masterLabel>
+            <translation><!-- DPFCMII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPFCMO</masterLabel>
+            <translation><!-- DPFCMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSE</masterLabel>
+            <translation><!-- DSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DTS</masterLabel>
+            <translation><!-- DTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECE</masterLabel>
+            <translation><!-- ECE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EGW</masterLabel>
+            <translation><!-- EGW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIS</masterLabel>
+            <translation><!-- EIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELM</masterLabel>
+            <translation><!-- ELM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ExecMALII</masterLabel>
+            <translation><!-- ExecMALII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ExecMALIII</masterLabel>
+            <translation><!-- ExecMALIII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ExecMALIV</masterLabel>
+            <translation><!-- ExecMALIV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCM</masterLabel>
+            <translation><!-- FCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCMI</masterLabel>
+            <translation><!-- FCMI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIE</masterLabel>
+            <translation><!-- FIE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIS</masterLabel>
+            <translation><!-- FIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEN</masterLabel>
+            <translation><!-- GEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS</masterLabel>
+            <translation><!-- GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIS</masterLabel>
+            <translation><!-- HIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBC</masterLabel>
+            <translation><!-- IBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICD</masterLabel>
+            <translation><!-- ICD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMS</masterLabel>
+            <translation><!-- LMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTS</masterLabel>
+            <translation><!-- LTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LW</masterLabel>
+            <translation><!-- LW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLD</masterLabel>
+            <translation><!-- MLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NKSS</masterLabel>
+            <translation><!-- NKSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUT</masterLabel>
+            <translation><!-- OUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUTNA</masterLabel>
+            <translation><!-- OUTNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUTREGEN</masterLabel>
+            <translation><!-- OUTREGEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OUTSOS</masterLabel>
+            <translation><!-- OUTSOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PS</masterLabel>
+            <translation><!-- PS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAE</masterLabel>
+            <translation><!-- SAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBS</masterLabel>
+            <translation><!-- SBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBSCC</masterLabel>
+            <translation><!-- SBSCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBSI</masterLabel>
+            <translation><!-- SBSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBSII</masterLabel>
+            <translation><!-- SBSII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBSIII</masterLabel>
+            <translation><!-- SBSIII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCF</masterLabel>
+            <translation><!-- SCF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEM</masterLabel>
+            <translation><!-- SEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOE</masterLabel>
+            <translation><!-- SOE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOW</masterLabel>
+            <translation><!-- SOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPB</masterLabel>
+            <translation><!-- SPB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UDS</masterLabel>
+            <translation><!-- UDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WBH</masterLabel>
+            <translation><!-- WBH --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Course Code - Quarter --></label>
+        <name>CourseCodeQuarter__c</name>
+        <picklistValues>
+            <masterLabel>Q1</masterLabel>
+            <translation><!-- Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2</masterLabel>
+            <translation><!-- Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3</masterLabel>
+            <translation><!-- Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4</masterLabel>
+            <translation><!-- Q4 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Course Code - Year --></label>
+        <name>CourseCodeYear__c</name>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2026</masterLabel>
+            <translation><!-- 2026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2027</masterLabel>
+            <translation><!-- 2027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2028</masterLabel>
+            <translation><!-- 2028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2029</masterLabel>
+            <translation><!-- 2029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2030</masterLabel>
+            <translation><!-- 2030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2031</masterLabel>
+            <translation><!-- 2031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2032</masterLabel>
+            <translation><!-- 2032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2033</masterLabel>
+            <translation><!-- 2033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2034</masterLabel>
+            <translation><!-- 2034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2035</masterLabel>
+            <translation><!-- 2035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2036</masterLabel>
+            <translation><!-- 2036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2037</masterLabel>
+            <translation><!-- 2037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2038</masterLabel>
+            <translation><!-- 2038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2039</masterLabel>
+            <translation><!-- 2039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2040</masterLabel>
+            <translation><!-- 2040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2041</masterLabel>
+            <translation><!-- 2041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2042</masterLabel>
+            <translation><!-- 2042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2043</masterLabel>
+            <translation><!-- 2043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2044</masterLabel>
+            <translation><!-- 2044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2045</masterLabel>
+            <translation><!-- 2045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2046</masterLabel>
+            <translation><!-- 2046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2047</masterLabel>
+            <translation><!-- 2047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2048</masterLabel>
+            <translation><!-- 2048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2049</masterLabel>
+            <translation><!-- 2049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2050</masterLabel>
+            <translation><!-- 2050 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Course / Event Name --></label>
+        <name>CourseEventName__c</name>
+    </fields><fields>
+        <label><!-- Course Type --></label>
+        <name>CourseType__c</name>
+        <relationshipLabel><!-- Courses / Events / Outreaches --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Departure Date --></label>
+        <name>DepartureDate__c</name>
+    </fields><fields>
+        <label><!-- Deposit --></label>
+        <name>Deposit__c</name>
+    </fields><fields>
+        <label><!-- End Date --></label>
+        <name>EndDate__c</name>
+    </fields><fields>
+        <label><!-- Related Lecture --></label>
+        <name>RelatedLecture__c</name>
+        <relationshipLabel><!-- Outreach Teams --></relationshipLabel>
+    </fields><fields>
+        <help><!-- When checked, it will allow students to see and apply for this course/event/outreach on our online application system. --></help>
+        <label><!-- Show in Online Application System --></label>
+        <name>ShowInOnlineApplicationSystem__c</name>
+    </fields><fields>
+        <label><!-- Start Date --></label>
+        <name>StartDate__c</name>
+    </fields><fields>
+        <label><!-- UofN Course Number --></label>
+        <name>UofNCourseNumber__c</name>
+    </fields><fields>
+        <label><!-- XrefId --></label>
+        <name>XrefId__c</name>
+    </fields><fields>
+        <help><!-- Full url to take the user directly to the page for this school/outreach/event.
+example: https://www.ywamlausanne.com/october-dts/ --></help>
+        <label><!-- ywamlausanne.com URL --></label>
+        <name>ywamlausannecomURL__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Course / Event / Outreach</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Courses / Events / Outreaches</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Course Layout</layout>
+        <sections>
+            <label><!-- Overall Quarterly Reports --></label>
+            <section>Overall Quarterly Reports</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Outreach</layout>
+        <sections>
+            <label><!-- Overall Quarterly Reports --></label>
+            <section>Overall Quarterly Reports</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Course --></label>
+        <name>Course</name>
+    </recordTypes><recordTypes>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </recordTypes><recordTypes>
+        <label><!-- Outreach --></label>
+        <name>Outreach</name>
+    </recordTypes><webLinks>
+        <label><!-- BP_ArrivalInformation --></label>
+        <name>BP_ArrivalInformation</name>
+    </webLinks><webLinks>
+        <label><!-- BP_EmergencyContactsLinks --></label>
+        <name>BP_EmergencyContactsLinks</name>
+    </webLinks><webLinks>
+        <label><!-- BP_HousingReportStaffStudents --></label>
+        <name>BP_HousingReportStaffStudents</name>
+    </webLinks><webLinks>
+        <label><!-- BP_NameTagsStudents --></label>
+        <name>BP_NameTagsStudents</name>
+    </webLinks><webLinks>
+        <label><!-- BP_NameTagsStudentsCourse --></label>
+        <name>BP_NameTagsStudentsCourse</name>
+    </webLinks><webLinks>
+        <label><!-- BP_PhotoSheet --></label>
+        <name>BP_PhotoSheet</name>
+    </webLinks><webLinks>
+        <label><!-- BP_QuarterReportAllSchools --></label>
+        <name>BP_QuarterReportAllSchools</name>
+    </webLinks><webLinks>
+        <label><!-- Conga_Composer_Room_List_Grouped_by_Room --></label>
+        <name>Conga_Composer_Room_List_Grouped_by_Room</name>
+    </webLinks><webLinks>
+        <label><!-- RoomsSign --></label>
+        <name>RoomsSign</name>
+    </webLinks><webLinks>
+        <label><!-- School_Trainees --></label>
+        <name>School_Trainees</name>
+    </webLinks></CustomObjectTranslation>

@@ -1,0 +1,1357 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>AbilityToFollow__c</fullName>
+        <externalId>false</externalId>
+        <label>Ability to Follow</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>false</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>AbilitytoWorkWithOthers__c</fullName>
+        <externalId>false</externalId>
+        <label>Ability to Work With Others</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>Application__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <referenceTo>BP_Application__c</referenceTo>
+        <relationshipLabel>Application References</relationshipLabel>
+        <relationshipName>BP_ApplicationReferences</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ConcernForOthers__c</fullName>
+        <externalId>false</externalId>
+        <label>Concern For Others</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ContactApplicant__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact (Applicant)</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Application References</relationshipLabel>
+        <relationshipName>BP_ApplicationReferences</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>ContactRefereeEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Referee Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ContactReferee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact (Referee)</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Application References (Referee)</relationshipLabel>
+        <relationshipName>ApplicationReferencesReferee</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>DateSubmitted__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Submitted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>EmotionalStability__c</fullName>
+        <externalId>false</externalId>
+        <label>Emotional Stability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>FamilyBackground__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please comment briefly on the applicant's family background.</inlineHelpText>
+        <label>Family Background</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>FinancialResponsibility__c</fullName>
+        <externalId>false</externalId>
+        <label>Financial Responsibility</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>FlexibilityOpennesstoChange__c</fullName>
+        <externalId>false</externalId>
+        <label>Flexibility/Openness to Change</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>FurtherCharacterGrowth__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Where do you think the applicant needs further character growth?</inlineHelpText>
+        <label>Further Character Growth</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Further_Information__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Is there any further information that would help us process the application?</inlineHelpText>
+        <label>Further Information</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>GeneralComments__c</fullName>
+        <externalId>false</externalId>
+        <label>General Comments</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>GratefulSpirit__c</fullName>
+        <externalId>false</externalId>
+        <label>Grateful Spirit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>High_Moral_Standards__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Question: Does the applicant display high moral standards?</inlineHelpText>
+        <label>High Moral Standards</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>IndustrialHardWorker__c</fullName>
+        <externalId>false</externalId>
+        <label>Industrial/Hard Worker</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>InitiativeSelfStarter__c</fullName>
+        <externalId>false</externalId>
+        <label>Initiative/Self Starter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>LeadershipAbility__c</fullName>
+        <externalId>false</externalId>
+        <label>Leadership Ability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>LengthYouHaveKnownTheApplicant__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How long have you known the applicant?</inlineHelpText>
+        <label>Length you’ve known the applicant</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>PersonalAppearance__c</fullName>
+        <externalId>false</externalId>
+        <label>Personal Appearance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>PositiveAttitude__c</fullName>
+        <externalId>false</externalId>
+        <label>Positive Attitude</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>PresentRelationshipWithGod__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How would you describe the applicant's present relationship with God?</inlineHelpText>
+        <label>Present Relationship With God</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>ReferenceLanguage__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference Language</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>RelationshipswithOthers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How would you describe the applicants relational skills with others?</inlineHelpText>
+        <label>Relational Skills</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Reliability__c</fullName>
+        <externalId>false</externalId>
+        <label>Reliability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ResponsetoAuthorityFigures__c</fullName>
+        <externalId>false</externalId>
+        <label>Response to Authority Figures</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ResponsetoPressureStress__c</fullName>
+        <externalId>false</externalId>
+        <label>Response to Pressure/Stress</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>ServantHeart__c</fullName>
+        <externalId>false</externalId>
+        <label>Servant Heart</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>SkillsTalentsandStrengths__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What skills, talents and strengths have you observed?</inlineHelpText>
+        <label>Skills, Talents and Strengths</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>TeachableSpirit__c</fullName>
+        <externalId>false</externalId>
+        <label>Teachable Spirit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>TypeOfReference__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Reference</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Friend</fullName>
+                    <default>false</default>
+                    <label>Friend</label>
+                </value>
+                <value>
+                    <fullName>Spiritual Leader</fullName>
+                    <default>false</default>
+                    <label>Spiritual Leader</label>
+                </value>
+                <value>
+                    <fullName>Teacher-Employer</fullName>
+                    <default>false</default>
+                    <label>Teacher-Employer</label>
+                </value>
+                <value>
+                    <fullName>YWAM Leader</fullName>
+                    <default>false</default>
+                    <label>YWAM Leader</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>TypeofEnvironment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What type of environment does the student function best in?</inlineHelpText>
+        <label>Type of Environment</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>WillingnesstoBeAccountable__c</fullName>
+        <externalId>false</externalId>
+        <label>Willingness to Be Accountable</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Above Average</fullName>
+                    <default>true</default>
+                    <label>Above Average</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Below Average</fullName>
+                    <default>false</default>
+                    <label>Below Average</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields><fields>
+        <fullName>WouldYouChoosetoWorkWithThem__c</fullName>
+        <externalId>false</externalId>
+        <label>Would You Choose to Work With Them</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>WouldYouRecommendtoAcceptThem__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Would you recommend this applicant for acceptance at YWAM Lausanne?</inlineHelpText>
+        <label>Would You Recommend to Accept Them</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>XrefId__c</fullName>
+        <externalId>false</externalId>
+        <label>XrefId</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Application Reference</label><nameField>
+        <label>Application Reference Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Application References</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts /><sharingModel>ControlledByParent</sharingModel><visibility>Public</visibility><listViews>
+        <fullName>All</fullName>
+        <columns>Application__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews><recordTypes>
+        <fullName>EmployerTeacherFriend</fullName>
+        <active>true</active>
+        <label>Employer/Teacher/Friend</label>
+        <picklistValues>
+            <picklist>AbilityToFollow__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AbilitytoWorkWithOthers__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ConcernForOthers__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmotionalStability__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FinancialResponsibility__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FlexibilityOpennesstoChange__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GratefulSpirit__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IndustrialHardWorker__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>InitiativeSelfStarter__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadershipAbility__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PersonalAppearance__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PositiveAttitude__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reliability__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResponsetoAuthorityFigures__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResponsetoPressureStress__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ServantHeart__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TeachableSpirit__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeOfReference__c</picklist>
+            <values>
+                <fullName>Friend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spiritual Leader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teacher-Employer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YWAM Leader</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>WillingnesstoBeAccountable__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>YWAMLeaderPastorSLeader</fullName>
+        <active>true</active>
+        <label>YWAMLeader/Pastor/S.Leader</label>
+        <picklistValues>
+            <picklist>AbilityToFollow__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AbilitytoWorkWithOthers__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ConcernForOthers__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmotionalStability__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FinancialResponsibility__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FlexibilityOpennesstoChange__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GratefulSpirit__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>IndustrialHardWorker__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>InitiativeSelfStarter__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadershipAbility__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PersonalAppearance__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PositiveAttitude__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reliability__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResponsetoAuthorityFigures__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ResponsetoPressureStress__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ServantHeart__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TeachableSpirit__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TypeOfReference__c</picklist>
+            <values>
+                <fullName>Friend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spiritual Leader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teacher-Employer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YWAM Leader</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>WillingnesstoBeAccountable__c</picklist>
+            <values>
+                <fullName>Above Average</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Average</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Below Average</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes></CustomObject>
